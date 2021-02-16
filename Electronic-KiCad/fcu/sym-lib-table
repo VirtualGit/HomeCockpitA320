@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name home-cockpit-library)(type Legacy)(uri /home/sos/local/home-cockpit/Electronic-KiCad/home-cockpit-library.lib)(options "")(descr ""))
+  (lib (name home-cockpit-symbols)(type Legacy)(uri ${KIPRJMOD}/../libraries/symbols/symbols.lib)(options "")(descr ""))
+  (lib (name fcu-display-rescue)(type Legacy)(uri ${KIPRJMOD}/fcu-display-rescue.lib)(options "")(descr "")(disabled))
 )
