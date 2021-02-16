@@ -1,0 +1,504 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title "HomeCockpit - FCU"
+Date "2021-02-08"
+Rev "1.0"
+Comp "VirtualGit"
+Comment1 "https://github.com/VirtualGit/HomeCockpitA320"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 4050 1050 1150 250 
+U 604C18F9
+F0 "fcu-display-driver1" 50
+F1 "fcu-display-driver1.sch" 50
+$EndSheet
+$Sheet
+S 4050 1600 1150 250 
+U 60579BC5
+F0 "fcu-display-driver2" 50
+F1 "fcu-display-driver2.sch" 50
+$EndSheet
+$Sheet
+S 4050 2150 1150 250 
+U 606C8F36
+F0 "fcu-display-driver3" 50
+F1 "fcu-display-driver3.sch" 50
+$EndSheet
+$Comp
+L home-cockpit-symbols:Connector-FPC-50pins U101
+U 1 1 605E3D2A
+P 1150 3500
+F 0 "U101" H 1100 6300 50  0000 L CNN
+F 1 "Connector-FPC-50pins" H 700 6150 50  0000 L CNN
+F 2 "home-cockpit-footprints:Connector-FPC-50pins-0.5mm" H 1150 3500 50  0001 C CNN
+F 3 "" H 1150 3500 50  0001 C CNN
+	1    1150 3500
+	1    0    0    -1  
+$EndComp
+Text GLabel 1950 3900 2    50   Input ~ 0
+speedAltA
+Text GLabel 1950 4000 2    50   Input ~ 0
+speedAltB
+Text GLabel 1950 4100 2    50   Input ~ 0
+speedAltC
+Text GLabel 1950 4200 2    50   Input ~ 0
+speedAltD
+Text GLabel 1950 4300 2    50   Input ~ 0
+speedAltE
+Text GLabel 1950 1800 2    50   Input ~ 0
+speedAltF
+Text GLabel 1950 1900 2    50   Input ~ 0
+speedAltG
+Text GLabel 2050 5700 2    50   Input ~ 0
+speedAltDig0
+Text GLabel 2050 5800 2    50   Input ~ 0
+speedAltDig1
+Text GLabel 2050 5900 2    50   Input ~ 0
+speedAltDig2
+Text GLabel 2050 2400 2    50   Input ~ 0
+speedAltDig3
+Text GLabel 2050 2500 2    50   Input ~ 0
+speedAltDig4
+Text GLabel 2050 2600 2    50   Input ~ 0
+speedAltDig5
+Text GLabel 2050 2700 2    50   Input ~ 0
+speedAltDig6
+Text GLabel 2050 2800 2    50   Input ~ 0
+speedAltDig7
+Text GLabel 1950 2000 2    50   Input ~ 0
+speedAltDP
+Text GLabel 1950 1700 2    50   Input ~ 0
+hdgVsA
+Text GLabel 1950 2900 2    50   Input ~ 0
+hdgVsB
+Text GLabel 1950 3000 2    50   Input ~ 0
+hdgVsC
+Text GLabel 1950 3100 2    50   Input ~ 0
+hdgVsD
+Text GLabel 1950 3200 2    50   Input ~ 0
+hdgVsE
+Text GLabel 1950 3300 2    50   Input ~ 0
+hdgVsF
+Text GLabel 1950 3400 2    50   Input ~ 0
+hdgVsG
+Text GLabel 2050 3600 2    50   Input ~ 0
+hdgVsDig0
+Text GLabel 2050 3700 2    50   Input ~ 0
+hdgVsDig1
+Text GLabel 2050 3800 2    50   Input ~ 0
+hdgVsDig2
+Text GLabel 2050 1200 2    50   Input ~ 0
+hdgVsDig3
+Text GLabel 2050 1300 2    50   Input ~ 0
+hdgVsDig4
+Text GLabel 2050 1400 2    50   Input ~ 0
+hdgVsDig5
+Text GLabel 2050 1500 2    50   Input ~ 0
+hdgVsDig6
+Text GLabel 2050 1600 2    50   Input ~ 0
+hdgVsDig7
+Text GLabel 1950 3500 2    50   Input ~ 0
+hdgVsDP
+Text GLabel 1950 4400 2    50   Input ~ 0
+Dr3SegA
+Text GLabel 1950 4500 2    50   Input ~ 0
+Dr3SegB
+Text GLabel 1950 4600 2    50   Input ~ 0
+Dr3SegC
+Text GLabel 1950 4700 2    50   Input ~ 0
+Dr3SegD
+Text GLabel 1950 4800 2    50   Input ~ 0
+Dr3SegE
+Text GLabel 1950 5000 2    50   Input ~ 0
+Dr3SegG
+Text GLabel 2050 5200 2    50   Input ~ 0
+Dr3Dig0
+Text GLabel 2050 5300 2    50   Input ~ 0
+Dr3Dig1
+Text GLabel 2050 5400 2    50   Input ~ 0
+Dr3Dig2
+Text GLabel 2050 5500 2    50   Input ~ 0
+Dr3Dig3
+Text GLabel 2050 5600 2    50   Input ~ 0
+Dr3Dig4
+Text GLabel 2050 2100 2    50   Input ~ 0
+Dr3Dig5
+Text GLabel 2050 2200 2    50   Input ~ 0
+Dr3Dig6
+Text GLabel 2050 2300 2    50   Input ~ 0
+Dr3Dig7
+Text GLabel 1950 5100 2    50   Input ~ 0
+Dr3SegDP
+Wire Wire Line
+	1400 3600 2050 3600
+Wire Wire Line
+	2050 3700 1400 3700
+Wire Wire Line
+	1400 3800 2050 3800
+Wire Wire Line
+	2050 1200 1400 1200
+Wire Wire Line
+	1400 1300 2050 1300
+Wire Wire Line
+	2050 1400 1400 1400
+Wire Wire Line
+	1400 1500 2050 1500
+Wire Wire Line
+	2050 1600 1400 1600
+Wire Wire Line
+	1400 5200 2050 5200
+Wire Wire Line
+	2050 5300 1400 5300
+Wire Wire Line
+	1400 5400 2050 5400
+Wire Wire Line
+	2050 5500 1400 5500
+Wire Wire Line
+	1400 5600 2050 5600
+Wire Wire Line
+	2050 2100 1400 2100
+Wire Wire Line
+	1400 2200 2050 2200
+Wire Wire Line
+	2050 2300 1400 2300
+Wire Wire Line
+	1400 5700 2050 5700
+Wire Wire Line
+	2050 5800 1400 5800
+Wire Wire Line
+	1400 5900 2050 5900
+Wire Wire Line
+	2050 2400 1400 2400
+Wire Wire Line
+	1400 2500 2050 2500
+Wire Wire Line
+	2050 2600 1400 2600
+Wire Wire Line
+	1400 2700 2050 2700
+Wire Wire Line
+	2050 2800 1400 2800
+NoConn ~ 1400 6100
+NoConn ~ 1400 6000
+NoConn ~ 1400 5900
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 60644E30
+P 2800 3900
+F 0 "#FLG0101" H 2800 3975 50  0001 C CNN
+F 1 "PWR_FLAG" V 2800 4028 50  0000 L CNN
+F 2 "" H 2800 3900 50  0001 C CNN
+F 3 "~" H 2800 3900 50  0001 C CNN
+	1    2800 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 3900 2800 3900
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 60682E27
+P 2800 4000
+F 0 "#FLG0103" H 2800 4075 50  0001 C CNN
+F 1 "PWR_FLAG" V 2800 4128 50  0000 L CNN
+F 2 "" H 2800 4000 50  0001 C CNN
+F 3 "~" H 2800 4000 50  0001 C CNN
+	1    2800 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 4000 2800 4000
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 60684823
+P 2800 4100
+F 0 "#FLG0104" H 2800 4175 50  0001 C CNN
+F 1 "PWR_FLAG" V 2800 4228 50  0000 L CNN
+F 2 "" H 2800 4100 50  0001 C CNN
+F 3 "~" H 2800 4100 50  0001 C CNN
+	1    2800 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 4100 2800 4100
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 60686225
+P 2800 4200
+F 0 "#FLG0105" H 2800 4275 50  0001 C CNN
+F 1 "PWR_FLAG" V 2800 4328 50  0000 L CNN
+F 2 "" H 2800 4200 50  0001 C CNN
+F 3 "~" H 2800 4200 50  0001 C CNN
+	1    2800 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 4200 2800 4200
+$Comp
+L power:PWR_FLAG #FLG0106
+U 1 1 60687C8C
+P 2800 4300
+F 0 "#FLG0106" H 2800 4375 50  0001 C CNN
+F 1 "PWR_FLAG" V 2800 4428 50  0000 L CNN
+F 2 "" H 2800 4300 50  0001 C CNN
+F 3 "~" H 2800 4300 50  0001 C CNN
+	1    2800 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 4300 2800 4300
+$Comp
+L power:PWR_FLAG #FLG0107
+U 1 1 606896F2
+P 2800 1800
+F 0 "#FLG0107" H 2800 1875 50  0001 C CNN
+F 1 "PWR_FLAG" V 2800 1928 50  0000 L CNN
+F 2 "" H 2800 1800 50  0001 C CNN
+F 3 "~" H 2800 1800 50  0001 C CNN
+	1    2800 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 1800 2800 1800
+$Comp
+L power:PWR_FLAG #FLG0108
+U 1 1 6068B15E
+P 2800 1900
+F 0 "#FLG0108" H 2800 1975 50  0001 C CNN
+F 1 "PWR_FLAG" V 2800 2028 50  0000 L CNN
+F 2 "" H 2800 1900 50  0001 C CNN
+F 3 "~" H 2800 1900 50  0001 C CNN
+	1    2800 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 1900 2800 1900
+$Comp
+L power:PWR_FLAG #FLG0109
+U 1 1 6068CBEF
+P 2800 2000
+F 0 "#FLG0109" H 2800 2075 50  0001 C CNN
+F 1 "PWR_FLAG" V 2800 2128 50  0000 L CNN
+F 2 "" H 2800 2000 50  0001 C CNN
+F 3 "~" H 2800 2000 50  0001 C CNN
+	1    2800 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0110
+U 1 1 6068EC0C
+P 2800 1700
+F 0 "#FLG0110" H 2800 1775 50  0001 C CNN
+F 1 "PWR_FLAG" V 2800 1828 50  0000 L CNN
+F 2 "" H 2800 1700 50  0001 C CNN
+F 3 "~" H 2800 1700 50  0001 C CNN
+	1    2800 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 1700 2800 1700
+$Comp
+L power:PWR_FLAG #FLG0111
+U 1 1 606906CB
+P 2800 2900
+F 0 "#FLG0111" H 2800 2975 50  0001 C CNN
+F 1 "PWR_FLAG" V 2800 3028 50  0000 L CNN
+F 2 "" H 2800 2900 50  0001 C CNN
+F 3 "~" H 2800 2900 50  0001 C CNN
+	1    2800 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 2900 2800 2900
+$Comp
+L power:PWR_FLAG #FLG0112
+U 1 1 606921B7
+P 2800 3000
+F 0 "#FLG0112" H 2800 3075 50  0001 C CNN
+F 1 "PWR_FLAG" V 2800 3128 50  0000 L CNN
+F 2 "" H 2800 3000 50  0001 C CNN
+F 3 "~" H 2800 3000 50  0001 C CNN
+	1    2800 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 3000 2800 3000
+$Comp
+L power:PWR_FLAG #FLG0113
+U 1 1 60693CA7
+P 2800 3100
+F 0 "#FLG0113" H 2800 3175 50  0001 C CNN
+F 1 "PWR_FLAG" V 2800 3228 50  0000 L CNN
+F 2 "" H 2800 3100 50  0001 C CNN
+F 3 "~" H 2800 3100 50  0001 C CNN
+	1    2800 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 3100 2800 3100
+$Comp
+L power:PWR_FLAG #FLG0114
+U 1 1 60695724
+P 2800 3200
+F 0 "#FLG0114" H 2800 3275 50  0001 C CNN
+F 1 "PWR_FLAG" V 2800 3328 50  0000 L CNN
+F 2 "" H 2800 3200 50  0001 C CNN
+F 3 "~" H 2800 3200 50  0001 C CNN
+	1    2800 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 3200 2800 3200
+$Comp
+L power:PWR_FLAG #FLG0115
+U 1 1 606971C5
+P 2800 3300
+F 0 "#FLG0115" H 2800 3375 50  0001 C CNN
+F 1 "PWR_FLAG" V 2800 3428 50  0000 L CNN
+F 2 "" H 2800 3300 50  0001 C CNN
+F 3 "~" H 2800 3300 50  0001 C CNN
+	1    2800 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 3300 2800 3300
+$Comp
+L power:PWR_FLAG #FLG0116
+U 1 1 60698C37
+P 2800 3400
+F 0 "#FLG0116" H 2800 3475 50  0001 C CNN
+F 1 "PWR_FLAG" V 2800 3528 50  0000 L CNN
+F 2 "" H 2800 3400 50  0001 C CNN
+F 3 "~" H 2800 3400 50  0001 C CNN
+	1    2800 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 3400 2800 3400
+$Comp
+L power:PWR_FLAG #FLG0117
+U 1 1 6069A651
+P 2800 3500
+F 0 "#FLG0117" H 2800 3575 50  0001 C CNN
+F 1 "PWR_FLAG" V 2800 3628 50  0000 L CNN
+F 2 "" H 2800 3500 50  0001 C CNN
+F 3 "~" H 2800 3500 50  0001 C CNN
+	1    2800 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 3500 2800 3500
+$Comp
+L power:PWR_FLAG #FLG0118
+U 1 1 6069C8A0
+P 2800 4400
+F 0 "#FLG0118" H 2800 4475 50  0001 C CNN
+F 1 "PWR_FLAG" V 2800 4528 50  0000 L CNN
+F 2 "" H 2800 4400 50  0001 C CNN
+F 3 "~" H 2800 4400 50  0001 C CNN
+	1    2800 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 4400 2800 4400
+$Comp
+L power:PWR_FLAG #FLG0119
+U 1 1 6069E303
+P 2800 4500
+F 0 "#FLG0119" H 2800 4575 50  0001 C CNN
+F 1 "PWR_FLAG" V 2800 4628 50  0000 L CNN
+F 2 "" H 2800 4500 50  0001 C CNN
+F 3 "~" H 2800 4500 50  0001 C CNN
+	1    2800 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 4500 2800 4500
+$Comp
+L power:PWR_FLAG #FLG0120
+U 1 1 6069FD3D
+P 2800 4600
+F 0 "#FLG0120" H 2800 4675 50  0001 C CNN
+F 1 "PWR_FLAG" V 2800 4728 50  0000 L CNN
+F 2 "" H 2800 4600 50  0001 C CNN
+F 3 "~" H 2800 4600 50  0001 C CNN
+	1    2800 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 4600 2800 4600
+$Comp
+L power:PWR_FLAG #FLG0121
+U 1 1 606A173D
+P 2800 4700
+F 0 "#FLG0121" H 2800 4775 50  0001 C CNN
+F 1 "PWR_FLAG" V 2800 4828 50  0000 L CNN
+F 2 "" H 2800 4700 50  0001 C CNN
+F 3 "~" H 2800 4700 50  0001 C CNN
+	1    2800 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 4700 2800 4700
+$Comp
+L power:PWR_FLAG #FLG0122
+U 1 1 606A30AA
+P 2800 4800
+F 0 "#FLG0122" H 2800 4875 50  0001 C CNN
+F 1 "PWR_FLAG" V 2800 4928 50  0000 L CNN
+F 2 "" H 2800 4800 50  0001 C CNN
+F 3 "~" H 2800 4800 50  0001 C CNN
+	1    2800 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 4800 2800 4800
+$Comp
+L power:PWR_FLAG #FLG0124
+U 1 1 606A640F
+P 2800 5000
+F 0 "#FLG0124" H 2800 5075 50  0001 C CNN
+F 1 "PWR_FLAG" V 2800 5128 50  0000 L CNN
+F 2 "" H 2800 5000 50  0001 C CNN
+F 3 "~" H 2800 5000 50  0001 C CNN
+	1    2800 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 5000 2800 5000
+$Comp
+L power:PWR_FLAG #FLG0125
+U 1 1 606A7CCB
+P 2800 5100
+F 0 "#FLG0125" H 2800 5175 50  0001 C CNN
+F 1 "PWR_FLAG" V 2800 5228 50  0000 L CNN
+F 2 "" H 2800 5100 50  0001 C CNN
+F 3 "~" H 2800 5100 50  0001 C CNN
+	1    2800 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 5100 2800 5100
+Wire Wire Line
+	1400 4900 2800 4900
+$Comp
+L power:PWR_FLAG #FLG0123
+U 1 1 606A4A93
+P 2800 4900
+F 0 "#FLG0123" H 2800 4975 50  0001 C CNN
+F 1 "PWR_FLAG" V 2800 5028 50  0000 L CNN
+F 2 "" H 2800 4900 50  0001 C CNN
+F 3 "~" H 2800 4900 50  0001 C CNN
+	1    2800 4900
+	0    1    1    0   
+$EndComp
+Text GLabel 1950 4900 2    50   Input ~ 0
+Dr3SegF
+Wire Wire Line
+	1400 2000 2800 2000
+$EndSCHEMATC
