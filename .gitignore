@@ -1,3 +1,7 @@
-**/fp-info-cache
-**/*-bak
-**/*-cache.lib
+Electronic/**/fp-info-cache
+Electronic/**/*-bak
+Electronic/**/*-cache.lib
+Electronic/**/*-rescue.lib
+Electronic/**/*.net
+Electronic/**/*.dsn
+Electronic/**/*.ses
