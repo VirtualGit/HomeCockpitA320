@@ -47,23 +47,12 @@ F 3 "~" H 8900 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Rotary_Encoder ROT_SPEED1
-U 1 1 6035B4C2
-P 2400 3200
-F 0 "ROT_SPEED1" H 2630 3246 50  0000 L CNN
-F 1 "Rotary_Encoder" H 2630 3155 50  0000 L CNN
-F 2 "home-cockpit-footprints:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical_for_RotaryEncoder" H 2250 3360 50  0001 C CNN
-F 3 "~" H 2400 3460 50  0001 C CNN
-	1    2400 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Rotary_Encoder ROT_HDG1
+L home-cockpit-symbols:Rotary_Encoder_VccGnd ROT_HDG1
 U 1 1 6035BB21
 P 4900 3200
 F 0 "ROT_HDG1" H 5130 3246 50  0000 L CNN
 F 1 "Rotary_Encoder" H 5130 3155 50  0000 L CNN
-F 2 "home-cockpit-footprints:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical_for_RotaryEncoder" H 4750 3360 50  0001 C CNN
+F 2 "home-cockpit-footprints:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical_RotaryEncoder" H 4750 3360 50  0001 C CNN
 F 3 "~" H 4900 3460 50  0001 C CNN
 	1    4900 3200
 	1    0    0    -1  
@@ -91,10 +80,10 @@ F 3 "" H 5100 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L home-cockpit-symbols:Korry K_ATHR1
+L home-cockpit-symbols:Korry KORRY_ATHR1
 U 1 1 60362C77
 P 4900 5100
-F 0 "K_ATHR1" H 4900 5465 50  0000 C CNN
+F 0 "KORRY_ATHR1" H 4900 5465 50  0000 C CNN
 F 1 "Korry" H 4900 5374 50  0000 C CNN
 F 2 "Connector_JST:JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical" H 5000 5300 50  0001 C CNN
 F 3 "" H 5000 5300 50  0001 C CNN
@@ -102,10 +91,10 @@ F 3 "" H 5000 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L home-cockpit-symbols:Korry K_LOC1
+L home-cockpit-symbols:Korry KORRY_LOC1
 U 1 1 6036313A
 P 2250 5100
-F 0 "K_LOC1" H 2250 5465 50  0000 C CNN
+F 0 "KORRY_LOC1" H 2250 5465 50  0000 C CNN
 F 1 "Korry" H 2250 5374 50  0000 C CNN
 F 2 "Connector_JST:JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical" H 2350 5300 50  0001 C CNN
 F 3 "" H 2350 5300 50  0001 C CNN
@@ -113,10 +102,10 @@ F 3 "" H 2350 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L home-cockpit-symbols:Korry K_EXPED1
+L home-cockpit-symbols:Korry KORRY_EXPED1
 U 1 1 60364FC3
 P 7350 5100
-F 0 "K_EXPED1" H 7350 5465 50  0000 C CNN
+F 0 "KORRY_EXPED1" H 7350 5465 50  0000 C CNN
 F 1 "Korry" H 7350 5374 50  0000 C CNN
 F 2 "Connector_JST:JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical" H 7450 5300 50  0001 C CNN
 F 3 "" H 7450 5300 50  0001 C CNN
@@ -124,10 +113,10 @@ F 3 "" H 7450 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L home-cockpit-symbols:Korry K_APPR1
+L home-cockpit-symbols:Korry KORRY_APPR1
 U 1 1 6036569D
 P 9500 5100
-F 0 "K_APPR1" H 9500 5465 50  0000 C CNN
+F 0 "KORRY_APPR1" H 9500 5465 50  0000 C CNN
 F 1 "Korry" H 9500 5374 50  0000 C CNN
 F 2 "Connector_JST:JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical" H 9600 5300 50  0001 C CNN
 F 3 "" H 9600 5300 50  0001 C CNN
@@ -143,17 +132,6 @@ F 1 "SW_Push" H 2400 3044 50  0000 C CNN
 F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 2400 3050 50  0001 C CNN
 F 3 "~" H 2400 3050 50  0001 C CNN
 	1    2400 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW_PULL_SPEED1
-U 1 1 60366AEF
-P 2400 3850
-F 0 "SW_PULL_SPEED1" H 2400 4135 50  0000 C CNN
-F 1 "SW_Push" H 2400 4044 50  0000 C CNN
-F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 2400 4050 50  0001 C CNN
-F 3 "~" H 2400 4050 50  0001 C CNN
-	1    2400 3850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -179,12 +157,12 @@ F 3 "~" H 4900 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Rotary_Encoder ROT_ALT1
+L home-cockpit-symbols:Rotary_Encoder_VccGnd ROT_ALT1
 U 1 1 6036FA53
 P 7650 3200
 F 0 "ROT_ALT1" H 7880 3246 50  0000 L CNN
 F 1 "Rotary_Encoder" H 7880 3155 50  0000 L CNN
-F 2 "home-cockpit-footprints:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical_for_RotaryEncoder" H 7500 3360 50  0001 C CNN
+F 2 "home-cockpit-footprints:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical_RotaryEncoder" H 7500 3360 50  0001 C CNN
 F 3 "~" H 7650 3460 50  0001 C CNN
 	1    7650 3200
 	1    0    0    -1  
@@ -234,12 +212,12 @@ F 3 "~" H 9850 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Rotary_Encoder ROT_VS1
+L home-cockpit-symbols:Rotary_Encoder_VccGnd ROT_VS1
 U 1 1 6037020E
 P 9850 3150
 F 0 "ROT_VS1" H 10080 3196 50  0000 L CNN
 F 1 "Rotary_Encoder" H 10080 3105 50  0000 L CNN
-F 2 "home-cockpit-footprints:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical_for_RotaryEncoder" H 9700 3310 50  0001 C CNN
+F 2 "home-cockpit-footprints:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical_RotaryEncoder" H 9700 3310 50  0001 C CNN
 F 3 "~" H 9850 3410 50  0001 C CNN
 	1    9850 3150
 	1    0    0    -1  
@@ -510,25 +488,8 @@ Wire Wire Line
 	1650 2850 1500 2850
 Wire Wire Line
 	1500 2850 1500 2550
-$Comp
-L Device:R R10
-U 1 1 6047F511
-P 1900 3850
-F 0 "R10" V 1693 3850 50  0000 C CNN
-F 1 "15kOhms" V 1784 3850 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1830 3850 50  0001 C CNN
-F 3 "~" H 1900 3850 50  0001 C CNN
-	1    1900 3850
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1950 2850 2200 2850
-Wire Wire Line
-	2200 3850 2050 3850
-Wire Wire Line
-	1750 3850 1500 3850
-Wire Wire Line
-	1500 3850 1500 2850
 Connection ~ 1500 2850
 $Comp
 L power:+5V #PWR?
@@ -576,7 +537,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 3850 3950 3850
 Wire Wire Line
-	3950 3850 3950 2850
+	3950 3850 3950 3050
 Connection ~ 3950 2850
 $Comp
 L power:+5V #PWR?
@@ -624,7 +585,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 3850 6600 3850
 Wire Wire Line
-	6600 3850 6600 2850
+	6600 3850 6600 3050
 Connection ~ 6600 2850
 $Comp
 L power:+5V #PWR?
@@ -672,7 +633,7 @@ Wire Wire Line
 Wire Wire Line
 	9000 3800 8850 3800
 Wire Wire Line
-	8850 3800 8850 2800
+	8850 3800 8850 3000
 Connection ~ 8850 2800
 Text GLabel 5500 7050 2    50   Input ~ 0
 BTN_GRP_1
@@ -742,10 +703,6 @@ Wire Wire Line
 	4650 7050 4400 7050
 Wire Wire Line
 	2000 6950 1700 6950
-Text GLabel 2750 3850 2    50   Input ~ 0
-BTN_GRP_2
-Wire Wire Line
-	2750 3850 2600 3850
 Text GLabel 2750 2850 2    50   Input ~ 0
 BTN_GRP_2
 Wire Wire Line
@@ -775,72 +732,53 @@ BTN_GRP_2
 Wire Wire Line
 	10200 2800 10050 2800
 $Comp
-L power:GND #PWR0122
-U 1 1 60612476
-P 1800 3200
-F 0 "#PWR0122" H 1800 2950 50  0001 C CNN
-F 1 "GND" V 1805 3072 50  0000 R CNN
-F 2 "" H 1800 3200 50  0001 C CNN
-F 3 "" H 1800 3200 50  0001 C CNN
-	1    1800 3200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2100 3200 1800 3200
-Text GLabel 2100 3100 0    50   Input ~ 0
-ROT_SPEED_A
-Text GLabel 2100 3300 0    50   Input ~ 0
-ROT_SPEED_B
-$Comp
 L power:GND #PWR0123
 U 1 1 606254E4
-P 4300 3200
-F 0 "#PWR0123" H 4300 2950 50  0001 C CNN
-F 1 "GND" V 4305 3072 50  0000 R CNN
-F 2 "" H 4300 3200 50  0001 C CNN
-F 3 "" H 4300 3200 50  0001 C CNN
-	1    4300 3200
+P 4300 3250
+F 0 "#PWR0123" H 4300 3000 50  0001 C CNN
+F 1 "GND" V 4305 3122 50  0000 R CNN
+F 2 "" H 4300 3250 50  0001 C CNN
+F 3 "" H 4300 3250 50  0001 C CNN
+	1    4300 3250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4600 3200 4300 3200
-Text GLabel 4600 3100 0    50   Input ~ 0
+	4600 3250 4300 3250
+Text GLabel 4600 3150 0    50   Input ~ 0
 ROT_HDG_A
-Text GLabel 4600 3300 0    50   Input ~ 0
+Text GLabel 4600 3350 0    50   Input ~ 0
 ROT_HDG_B
 $Comp
 L power:GND #PWR0124
 U 1 1 6062DE63
-P 7050 3200
-F 0 "#PWR0124" H 7050 2950 50  0001 C CNN
-F 1 "GND" V 7055 3072 50  0000 R CNN
-F 2 "" H 7050 3200 50  0001 C CNN
-F 3 "" H 7050 3200 50  0001 C CNN
-	1    7050 3200
+P 7050 3250
+F 0 "#PWR0124" H 7050 3000 50  0001 C CNN
+F 1 "GND" V 7055 3122 50  0000 R CNN
+F 2 "" H 7050 3250 50  0001 C CNN
+F 3 "" H 7050 3250 50  0001 C CNN
+	1    7050 3250
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7350 3200 7050 3200
-Text GLabel 7350 3100 0    50   Input ~ 0
+Text GLabel 7350 3150 0    50   Input ~ 0
 ROT_ALT_A
-Text GLabel 7350 3300 0    50   Input ~ 0
+Text GLabel 7350 3350 0    50   Input ~ 0
 ROT_ALT_B
 $Comp
 L power:GND #PWR0125
 U 1 1 60635355
-P 9150 3150
-F 0 "#PWR0125" H 9150 2900 50  0001 C CNN
-F 1 "GND" V 9155 3022 50  0000 R CNN
-F 2 "" H 9150 3150 50  0001 C CNN
-F 3 "" H 9150 3150 50  0001 C CNN
-	1    9150 3150
+P 9150 3200
+F 0 "#PWR0125" H 9150 2950 50  0001 C CNN
+F 1 "GND" V 9155 3072 50  0000 R CNN
+F 2 "" H 9150 3200 50  0001 C CNN
+F 3 "" H 9150 3200 50  0001 C CNN
+	1    9150 3200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9550 3150 9150 3150
-Text GLabel 9550 3050 0    50   Input ~ 0
+	9550 3200 9150 3200
+Text GLabel 9550 3100 0    50   Input ~ 0
 ROT_VS_A
-Text GLabel 9550 3250 0    50   Input ~ 0
+Text GLabel 9550 3300 0    50   Input ~ 0
 ROT_VS_B
 Text GLabel 6900 5100 0    50   Input ~ 0
 Dr3SegC
@@ -926,4 +864,86 @@ Wire Wire Line
 Wire Wire Line
 	2700 6600 2850 6600
 Connection ~ 2700 6600
+Text GLabel 2100 3350 0    50   Input ~ 0
+ROT_SPEED_B
+Text GLabel 2100 3150 0    50   Input ~ 0
+ROT_SPEED_A
+Wire Wire Line
+	2100 3250 1800 3250
+$Comp
+L power:GND #PWR0122
+U 1 1 60612476
+P 1800 3250
+F 0 "#PWR0122" H 1800 3000 50  0001 C CNN
+F 1 "GND" V 1805 3122 50  0000 R CNN
+F 2 "" H 1800 3250 50  0001 C CNN
+F 3 "" H 1800 3250 50  0001 C CNN
+	1    1800 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2750 3850 2600 3850
+Text GLabel 2750 3850 2    50   Input ~ 0
+BTN_GRP_2
+Wire Wire Line
+	1500 3850 1500 3050
+Wire Wire Line
+	1750 3850 1500 3850
+Wire Wire Line
+	2200 3850 2050 3850
+$Comp
+L Device:R R10
+U 1 1 6047F511
+P 1900 3850
+F 0 "R10" V 1693 3850 50  0000 C CNN
+F 1 "15kOhms" V 1784 3850 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1830 3850 50  0001 C CNN
+F 3 "~" H 1900 3850 50  0001 C CNN
+	1    1900 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW_PULL_SPEED1
+U 1 1 60366AEF
+P 2400 3850
+F 0 "SW_PULL_SPEED1" H 2400 4135 50  0000 C CNN
+F 1 "SW_Push" H 2400 4044 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 2400 4050 50  0001 C CNN
+F 3 "~" H 2400 4050 50  0001 C CNN
+	1    2400 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L home-cockpit-symbols:Rotary_Encoder_VccGnd ROT_SPEED1
+U 1 1 6035B4C2
+P 2400 3200
+F 0 "ROT_SPEED1" H 2630 3246 50  0000 L CNN
+F 1 "Rotary_Encoder" H 2630 3155 50  0000 L CNN
+F 2 "home-cockpit-footprints:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical_RotaryEncoder" H 2250 3360 50  0001 C CNN
+F 3 "~" H 2400 3460 50  0001 C CNN
+	1    2400 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 3050 2100 3050
+Connection ~ 1500 3050
+Wire Wire Line
+	1500 3050 1500 2850
+Wire Wire Line
+	9550 3000 8850 3000
+Connection ~ 8850 3000
+Wire Wire Line
+	8850 3000 8850 2800
+Wire Wire Line
+	7350 3050 6600 3050
+Connection ~ 6600 3050
+Wire Wire Line
+	6600 3050 6600 2850
+Wire Wire Line
+	4600 3050 3950 3050
+Connection ~ 3950 3050
+Wire Wire Line
+	3950 3050 3950 2850
+Wire Wire Line
+	7350 3250 7050 3250
 $EndSCHEMATC

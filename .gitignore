@@ -8,3 +8,4 @@ Electronic/**/*.dsn
 Electronic/**/*.ses
 Electronic/**/*.rules
 Electronic/**/*.xml
+Electronic/libraries/symbols/*.bck
