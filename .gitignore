@@ -5,3 +5,5 @@ Electronic/**/*-rescue.lib
 Electronic/**/*.net
 Electronic/**/*.dsn
 Electronic/**/*.ses
+Electronic/**/*.rules
+Electronic/**/*.xml
