@@ -218,58 +218,58 @@ Wire Wire Line
 	1150 3150 1450 3150
 Wire Wire Line
 	1150 4750 1450 4750
-NoConn ~ 3800 1150
-NoConn ~ 4000 1150
-Connection ~ 4000 3150
+NoConn ~ 3850 1750
+NoConn ~ 4050 1750
+Connection ~ 4050 3750
 Wire Wire Line
-	4000 3150 3900 3150
-NoConn ~ 3400 2850
-NoConn ~ 3400 1550
-NoConn ~ 3400 1650
-NoConn ~ 4400 2650
-NoConn ~ 4400 2550
-NoConn ~ 4400 2450
-NoConn ~ 4400 2350
-NoConn ~ 4400 2250
-NoConn ~ 4400 2150
-NoConn ~ 4400 1950
-NoConn ~ 4400 1650
-NoConn ~ 4400 1550
+	4050 3750 3950 3750
+NoConn ~ 3450 3450
+NoConn ~ 3450 2150
+NoConn ~ 3450 2250
+NoConn ~ 4450 3250
+NoConn ~ 4450 3150
+NoConn ~ 4450 3050
+NoConn ~ 4450 2950
+NoConn ~ 4450 2850
+NoConn ~ 4450 2750
+NoConn ~ 4450 2550
+NoConn ~ 4450 2250
+NoConn ~ 4450 2150
 $Comp
 L power:GND #PWR0102
 U 1 1 603CE59C
-P 4000 3650
-F 0 "#PWR0102" H 4000 3400 50  0001 C CNN
-F 1 "GND" H 4005 3477 50  0000 C CNN
-F 2 "" H 4000 3650 50  0001 C CNN
-F 3 "" H 4000 3650 50  0001 C CNN
-	1    4000 3650
+P 4050 4250
+F 0 "#PWR0102" H 4050 4000 50  0001 C CNN
+F 1 "GND" H 4055 4077 50  0000 C CNN
+F 2 "" H 4050 4250 50  0001 C CNN
+F 3 "" H 4050 4250 50  0001 C CNN
+	1    4050 4250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 3150 4000 3250
+	4050 3750 4050 3850
 Wire Wire Line
-	4100 1000 4100 1150
+	3850 1600 3850 1750
 $Comp
 L power:+5V #PWR0104
 U 1 1 60358305
-P 4100 1000
-F 0 "#PWR0104" H 4100 850 50  0001 C CNN
-F 1 "+5V" H 4115 1173 50  0000 C CNN
-F 2 "" H 4100 1000 50  0001 C CNN
-F 3 "" H 4100 1000 50  0001 C CNN
-	1    4100 1000
+P 3850 1600
+F 0 "#PWR0104" H 3850 1450 50  0001 C CNN
+F 1 "+5V" H 3865 1773 50  0000 C CNN
+F 2 "" H 3850 1600 50  0001 C CNN
+F 3 "" H 3850 1600 50  0001 C CNN
+	1    3850 1600
 	1    0    0    -1  
 $EndComp
 $Comp
 L MCU_Module:Arduino_Nano_v3.x A1
 U 1 1 6163E201
-P 3900 2150
-F 0 "A1" V 3850 2200 50  0000 R CNN
-F 1 "Arduino_Nano_v3.x" V 3950 2500 50  0000 R CNN
-F 2 "Module:Arduino_Nano" H 3900 2150 50  0001 C CIN
-F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 3900 2150 50  0001 C CNN
-	1    3900 2150
+P 3950 2750
+F 0 "A1" V 3900 2800 50  0000 R CNN
+F 1 "Arduino_Nano_v3.x" V 4000 3100 50  0000 R CNN
+F 2 "Module:Arduino_Nano" H 3950 2750 50  0001 C CIN
+F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 3950 2750 50  0001 C CNN
+	1    3950 2750
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -284,100 +284,137 @@ U 602DB478
 F0 "fcu-mb-display-drivers" 50
 F1 "fcu-mb-display-drivers.sch" 50
 $EndSheet
-Text GLabel 3250 2550 0    50   Input ~ 0
+Text GLabel 3300 3150 0    50   Input ~ 0
 DriverLoad
-Text GLabel 3250 2650 0    50   Input ~ 0
+Text GLabel 3300 3250 0    50   Input ~ 0
 DriverClock
-Text GLabel 3250 2750 0    50   Input ~ 0
+Text GLabel 3300 3350 0    50   Input ~ 0
 DriverData
 Wire Wire Line
-	3250 2550 3400 2550
+	3300 3150 3450 3150
 Wire Wire Line
-	3400 2650 3250 2650
+	3450 3250 3300 3250
 Wire Wire Line
-	3250 2750 3400 2750
-Text GLabel 4850 2750 2    50   Input ~ 0
+	3300 3350 3450 3350
+Text GLabel 4900 3350 2    50   Input ~ 0
 BTN_GRP_1
 $Comp
 L Device:R R4
 U 1 1 60420605
-P 4500 3250
-F 0 "R4" V 4600 3200 50  0000 L CNN
-F 1 "100kOhms" V 4400 3050 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4430 3250 50  0001 C CNN
-F 3 "~" H 4500 3250 50  0001 C CNN
-	1    4500 3250
+P 4550 3850
+F 0 "R4" V 4650 3800 50  0000 L CNN
+F 1 "100kOhms" V 4450 3650 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4480 3850 50  0001 C CNN
+F 3 "~" H 4550 3850 50  0001 C CNN
+	1    4550 3850
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4350 3250 4000 3250
-Connection ~ 4000 3250
+	4400 3850 4050 3850
+Connection ~ 4050 3850
 Wire Wire Line
-	4000 3250 4000 3550
+	4050 3850 4050 4150
 Wire Wire Line
-	4850 2750 4650 2750
+	4900 3350 4700 3350
 Wire Wire Line
-	4650 3250 4650 2750
-Connection ~ 4650 2750
+	4700 3850 4700 3350
+Connection ~ 4700 3350
 Wire Wire Line
-	4650 2750 4400 2750
-Text GLabel 4850 2850 2    50   Input ~ 0
+	4700 3350 4450 3350
+Text GLabel 4900 3450 2    50   Input ~ 0
 BTN_GRP_2
 Wire Wire Line
-	4850 2850 4750 2850
+	4900 3450 4800 3450
 $Comp
 L Device:R R5
 U 1 1 60592A8D
-P 4500 3550
-F 0 "R5" V 4600 3500 50  0000 L CNN
-F 1 "100kOhms" V 4400 3350 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4430 3550 50  0001 C CNN
-F 3 "~" H 4500 3550 50  0001 C CNN
-	1    4500 3550
+P 4550 4150
+F 0 "R5" V 4650 4100 50  0000 L CNN
+F 1 "100kOhms" V 4450 3950 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4480 4150 50  0001 C CNN
+F 3 "~" H 4550 4150 50  0001 C CNN
+	1    4550 4150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4750 2850 4750 3550
+	4800 3450 4800 4150
 Wire Wire Line
-	4750 3550 4650 3550
-Connection ~ 4750 2850
+	4800 4150 4700 4150
+Connection ~ 4800 3450
 Wire Wire Line
-	4750 2850 4400 2850
+	4800 3450 4450 3450
 Wire Wire Line
-	4350 3550 4000 3550
-Connection ~ 4000 3550
+	4400 4150 4050 4150
+Connection ~ 4050 4150
 Wire Wire Line
-	4000 3550 4000 3650
-Text GLabel 3250 1750 0    50   Input ~ 0
+	4050 4150 4050 4250
+Text GLabel 3300 2350 0    50   Input ~ 0
 ROT_SPEED_A
-Text GLabel 3250 1850 0    50   Input ~ 0
+Text GLabel 3300 2450 0    50   Input ~ 0
 ROT_SPEED_B
-Text GLabel 3250 1950 0    50   Input ~ 0
+Text GLabel 3300 2550 0    50   Input ~ 0
 ROT_HDG_A
-Text GLabel 3250 2050 0    50   Input ~ 0
+Text GLabel 3300 2650 0    50   Input ~ 0
 ROT_HDG_B
-Text GLabel 3250 2150 0    50   Input ~ 0
+Text GLabel 3300 2750 0    50   Input ~ 0
 ROT_ALT_A
-Text GLabel 3250 2250 0    50   Input ~ 0
+Text GLabel 3300 2850 0    50   Input ~ 0
 ROT_ALT_B
-Text GLabel 3250 2350 0    50   Input ~ 0
+Text GLabel 3300 2950 0    50   Input ~ 0
 ROT_VS_A
-Text GLabel 3250 2450 0    50   Input ~ 0
+Text GLabel 3300 3050 0    50   Input ~ 0
 ROT_VS_B
 Wire Wire Line
-	3250 2250 3400 2250
+	3300 2850 3450 2850
 Wire Wire Line
-	3400 2350 3250 2350
+	3450 2950 3300 2950
 Wire Wire Line
-	3250 2450 3400 2450
+	3300 3050 3450 3050
 Wire Wire Line
-	3250 1950 3400 1950
+	3300 2550 3450 2550
 Wire Wire Line
-	3400 2050 3250 2050
+	3450 2650 3300 2650
 Wire Wire Line
-	3250 2150 3400 2150
+	3300 2750 3450 2750
 Wire Wire Line
-	3400 1750 3250 1750
+	3450 2350 3300 2350
 Wire Wire Line
-	3250 1850 3400 1850
+	3300 2450 3450 2450
+$Comp
+L Connector:Conn_Coaxial_Power J1
+U 1 1 602C25C0
+P 3500 1050
+F 0 "J1" V 3283 1000 50  0000 C CNN
+F 1 "Conn_Coaxial_Power" V 3374 1000 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 3500 1000 50  0001 C CNN
+F 3 "~" H 3500 1000 50  0001 C CNN
+	1    3500 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0126
+U 1 1 602CD01B
+P 3850 1050
+F 0 "#PWR0126" H 3850 900 50  0001 C CNN
+F 1 "+5V" H 3865 1223 50  0000 C CNN
+F 2 "" H 3850 1050 50  0001 C CNN
+F 3 "" H 3850 1050 50  0001 C CNN
+	1    3850 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0127
+U 1 1 602CD478
+P 3050 1050
+F 0 "#PWR0127" H 3050 800 50  0001 C CNN
+F 1 "GND" H 3055 877 50  0000 C CNN
+F 2 "" H 3050 1050 50  0001 C CNN
+F 3 "" H 3050 1050 50  0001 C CNN
+	1    3050 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 1050 3600 1050
+Wire Wire Line
+	3300 1050 3050 1050
 $EndSCHEMATC
