@@ -195,38 +195,8 @@ Wire Wire Line
 Connection ~ 7000 2600
 Wire Wire Line
 	7750 2600 7750 2850
-Wire Wire Line
-	7000 2600 7000 2850
-Wire Wire Line
-	7600 2950 7600 3250
-Wire Wire Line
-	6700 2950 6700 3250
-Wire Wire Line
-	5250 2650 5250 2850
-Wire Wire Line
-	5850 2950 5850 3250
-Wire Wire Line
-	4400 2450 4400 2850
-Wire Wire Line
-	5000 2950 5000 3250
-Wire Wire Line
-	7900 1400 7900 1600
-Wire Wire Line
-	8500 1700 8500 2100
-Wire Wire Line
-	7050 1400 7050 1600
-Wire Wire Line
-	7650 1700 7650 2100
-Wire Wire Line
-	6100 1400 6100 1600
-Wire Wire Line
-	6700 1600 6700 1700
-Wire Wire Line
-	5250 1400 5250 1600
-Wire Wire Line
-	5000 1600 5000 1700
 $Comp
-L fcu-display-rescue:LedPave-home-cockpit-library PadLine?
+L home-cockpit-symbols:LedPave PadLine?
 U 1 1 60360EA3
 P 8100 2750
 AR Path="/60360EA3" Ref="PadLine?"  Part="1" 
@@ -239,7 +209,7 @@ F 3 "" H 8200 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fcu-display-rescue:LedPave-home-cockpit-library PadLine?
+L home-cockpit-symbols:LedPave PadLine?
 U 1 1 60366B4C
 P 7300 2750
 AR Path="/60366B4C" Ref="PadLine?"  Part="1" 
@@ -252,7 +222,7 @@ F 3 "" H 7400 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fcu-display-rescue:LedPave-home-cockpit-library PadLine?
+L home-cockpit-symbols:LedPave PadLine?
 U 1 1 60366EBA
 P 6400 2750
 AR Path="/60366EBA" Ref="PadLine?"  Part="1" 
@@ -265,7 +235,7 @@ F 3 "" H 6500 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fcu-display-rescue:LedPave-home-cockpit-library PadLine?
+L home-cockpit-symbols:LedPave PadLine?
 U 1 1 603671F5
 P 5550 2750
 AR Path="/603671F5" Ref="PadLine?"  Part="1" 
@@ -278,7 +248,7 @@ F 3 "" H 5650 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fcu-display-rescue:LedPave-home-cockpit-library PaveTRK?
+L home-cockpit-symbols:LedPave PaveTRK?
 U 1 1 603692E6
 P 4700 2750
 AR Path="/603692E6" Ref="PaveTRK?"  Part="1" 
@@ -291,45 +261,14 @@ F 3 "" H 4800 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4400 2950 4400 2850
-Connection ~ 4400 2850
-Wire Wire Line
-	5000 2850 5000 2950
-Connection ~ 5000 2950
-Wire Wire Line
-	5250 2950 5250 2850
-Connection ~ 5250 2850
-Wire Wire Line
-	5850 2950 5850 2850
-Connection ~ 5850 2950
-Wire Wire Line
-	6100 2650 6100 2850
-Wire Wire Line
-	6100 2950 6100 2850
-Connection ~ 6100 2850
-Wire Wire Line
-	6700 2950 6700 2850
-Connection ~ 6700 2950
-Wire Wire Line
-	7000 2950 7000 2850
-Connection ~ 7000 2850
-Wire Wire Line
-	7600 2850 7600 2950
-Connection ~ 7600 2950
-Wire Wire Line
-	8400 2950 8400 3250
-Wire Wire Line
 	7750 2950 7800 2950
 Wire Wire Line
 	7800 2850 7750 2850
 Connection ~ 7750 2850
 Wire Wire Line
 	7750 2850 7750 2950
-Wire Wire Line
-	8400 2850 8400 2950
-Connection ~ 8400 2950
 $Comp
-L fcu-display-rescue:LedPave-home-cockpit-library PaveFPA?
+L home-cockpit-symbols:LedPave PaveFPA?
 U 1 1 603D00CB
 P 8200 1500
 AR Path="/603D00CB" Ref="PaveFPA?"  Part="1" 
@@ -342,7 +281,7 @@ F 3 "" H 8300 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fcu-display-rescue:LedPave-home-cockpit-library PaveVS?
+L home-cockpit-symbols:LedPave PaveVS?
 U 1 1 603D1EF3
 P 7350 1500
 AR Path="/603D1EF3" Ref="PaveVS?"  Part="1" 
@@ -355,7 +294,7 @@ F 3 "" H 7450 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fcu-display-rescue:LedPave-home-cockpit-library PaveVS?
+L home-cockpit-symbols:LedPave PaveVS?
 U 1 1 603D2274
 P 6400 1500
 AR Path="/603D2274" Ref="PaveVS?"  Part="1" 
@@ -368,7 +307,7 @@ F 3 "" H 6500 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fcu-display-rescue:LedPave-home-cockpit-library PaveVS?
+L home-cockpit-symbols:LedPave PaveVS?
 U 1 1 603D2560
 P 5550 1500
 AR Path="/603D2560" Ref="PaveVS?"  Part="1" 
@@ -381,7 +320,7 @@ F 3 "" H 5650 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fcu-display-rescue:LedPave-home-cockpit-library PaveVS?
+L home-cockpit-symbols:LedPave PaveVS?
 U 1 1 603D2F30
 P 4700 1500
 AR Path="/603D2F30" Ref="PaveVS?"  Part="1" 
@@ -393,32 +332,6 @@ F 3 "" H 4800 1500 50  0001 C CNN
 	1    4700 1500
 	1    0    0    -1  
 $EndComp
-Connection ~ 5000 1700
-Wire Wire Line
-	5000 1700 5000 2100
-Wire Wire Line
-	4400 1700 4400 1600
-Wire Wire Line
-	5250 1700 5250 1600
-Connection ~ 5250 1600
-Connection ~ 6700 1700
-Wire Wire Line
-	6700 1700 6700 2100
-Wire Wire Line
-	6100 1700 6100 1600
-Connection ~ 6100 1600
-Wire Wire Line
-	7650 1600 7650 1700
-Connection ~ 7650 1700
-Wire Wire Line
-	7050 1700 7050 1600
-Connection ~ 7050 1600
-Wire Wire Line
-	8500 1700 8500 1600
-Connection ~ 8500 1700
-Wire Wire Line
-	7900 1700 7900 1600
-Connection ~ 7900 1600
 Wire Wire Line
 	4200 2100 4200 2850
 Text GLabel 1700 1550 0    50   Input ~ 0
@@ -487,7 +400,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 2850 4200 2850
 $Comp
-L fcu-display-rescue:LedPave-home-cockpit-library PadALT?
+L home-cockpit-symbols:LedPave PadALT?
 U 1 1 6044F716
 P 6100 4600
 AR Path="/6044F716" Ref="PadALT?"  Part="1" 
@@ -500,7 +413,7 @@ F 3 "" H 6200 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fcu-display-rescue:LedPave-home-cockpit-library PadLVLCH?
+L home-cockpit-symbols:LedPave PadLVLCH?
 U 1 1 6044F71C
 P 7300 4600
 AR Path="/6044F71C" Ref="PadLVLCH?"  Part="1" 
@@ -513,7 +426,7 @@ F 3 "" H 7400 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fcu-display-rescue:LedPave-home-cockpit-library PadLine?
+L home-cockpit-symbols:LedPave PadLine?
 U 1 1 6044F722
 P 9750 4600
 AR Path="/6044F722" Ref="PadLine?"  Part="1" 
@@ -526,7 +439,7 @@ F 3 "" H 9850 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fcu-display-rescue:LedPave-home-cockpit-library PadLine?
+L home-cockpit-symbols:LedPave PadLine?
 U 1 1 6044F728
 P 8500 4600
 AR Path="/6044F728" Ref="PadLine?"  Part="1" 
@@ -539,17 +452,11 @@ F 3 "" H 8600 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10050 4700 10050 4800
-Wire Wire Line
 	9400 4700 9450 4700
 Wire Wire Line
 	9400 4700 9400 4800
 Wire Wire Line
 	9400 4800 9450 4800
-Wire Wire Line
-	8200 4700 8200 4800
-Wire Wire Line
-	8800 4700 8800 4800
 Wire Wire Line
 	6950 4700 7000 4700
 Wire Wire Line
@@ -563,24 +470,13 @@ Wire Wire Line
 	7600 4700 7650 4700
 Wire Wire Line
 	7650 4700 7650 4800
-Wire Wire Line
-	6400 4700 6400 4800
-Wire Wire Line
-	5800 4700 5800 4800
 Connection ~ 3950 3850
 Entry Wire Line
 	8100 3850 8200 3950
 Entry Wire Line
 	5700 3850 5800 3950
-Wire Wire Line
-	8200 3950 8200 4700
-Wire Wire Line
-	5800 3950 5800 4700
-Connection ~ 10050 4800
 Wire Notes Line
 	10300 3750 4300 3750
-Connection ~ 5800 4700
-Connection ~ 8200 4700
 Entry Wire Line
 	6850 3850 6950 3950
 Entry Wire Line
@@ -592,20 +488,12 @@ Wire Wire Line
 	9400 3950 9400 4700
 Connection ~ 9400 4700
 Wire Wire Line
-	10050 4800 10050 5200
-Wire Wire Line
 	7650 4800 7650 5200
 Wire Wire Line
 	7650 5200 8800 5200
-Wire Wire Line
-	8800 4800 8800 5200
-Connection ~ 8800 4800
 Connection ~ 8800 5200
 Wire Wire Line
 	8800 5200 10050 5200
-Wire Wire Line
-	6400 4800 6400 5200
-Connection ~ 6400 4800
 Text Label 5800 4100 0    50   ~ 0
 Dr3SegD
 Text Label 6950 4100 0    50   ~ 0
@@ -669,13 +557,7 @@ F 3 "~" H 4400 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4400 2000 4400 1700
-Connection ~ 4400 1700
-Wire Wire Line
 	7050 1400 7900 1400
-Wire Wire Line
-	7050 2000 7050 1700
-Connection ~ 7050 1700
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 605A98CE
@@ -689,9 +571,6 @@ F 3 "~" H 5250 2000 50  0001 C CNN
 	1    5250 2000
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5250 2000 5250 1700
-Connection ~ 5250 1700
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 605AEF6C
@@ -731,15 +610,6 @@ F 3 "~" H 7000 3200 50  0001 C CNN
 	1    7000 3200
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7000 3200 7000 2950
-Connection ~ 7000 2950
-Wire Wire Line
-	5250 3200 5250 2950
-Connection ~ 5250 2950
-Wire Wire Line
-	4400 3200 4400 2950
-Connection ~ 4400 2950
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 605CEFBD
@@ -764,14 +634,57 @@ Wire Wire Line
 	4050 4150 4600 4150
 Wire Wire Line
 	5000 2100 5850 2100
-Wire Wire Line
-	5850 1600 5850 1700
-Wire Wire Line
-	5850 1700 5850 2100
-Connection ~ 5850 1700
 Connection ~ 5850 2100
 Wire Wire Line
 	5850 2100 6700 2100
+Wire Wire Line
+	7600 2850 7600 3250
+Wire Wire Line
+	6700 2850 6700 3250
+Wire Wire Line
+	5850 2850 5850 3250
+Wire Wire Line
+	5000 2850 5000 3250
+Wire Wire Line
+	7900 1400 7900 1700
+Wire Wire Line
+	8500 1600 8500 2100
+Wire Wire Line
+	7650 1600 7650 2100
+Wire Wire Line
+	6100 1400 6100 1700
+Wire Wire Line
+	6700 1600 6700 2100
+Wire Wire Line
+	5000 1600 5000 2100
+Wire Wire Line
+	6100 2650 6100 2950
+Wire Wire Line
+	8400 2850 8400 3250
+Wire Wire Line
+	4400 1600 4400 2000
+Wire Wire Line
+	10050 4700 10050 5200
+Wire Wire Line
+	8200 3950 8200 4800
+Wire Wire Line
+	8800 4700 8800 5200
+Wire Wire Line
+	6400 4700 6400 5200
+Wire Wire Line
+	5800 3950 5800 4800
+Wire Wire Line
+	7050 1400 7050 2000
+Wire Wire Line
+	5250 1400 5250 2000
+Wire Wire Line
+	7000 2600 7000 3200
+Wire Wire Line
+	5250 2650 5250 3200
+Wire Wire Line
+	4400 2450 4400 3200
+Wire Wire Line
+	5850 1600 5850 2100
 Wire Bus Line
 	3950 3850 3950 4900
 Wire Bus Line
