@@ -1,4 +1,4 @@
 # A320 Home Cockpit
 Home cockpit project of the Airbus A320 based on Arduino.
 
-[Read more](https://github.com/VirtualGit/HomeCockpitA320/wiki)
+[Read more](https://github.com/VirtualGit/HomeCockpitA320/wiki/A320-Home-Cockpit)
