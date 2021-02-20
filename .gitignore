@@ -9,3 +9,6 @@ Electronic/**/*.ses
 Electronic/**/*.rules
 Electronic/**/*.xml
 Electronic/libraries/symbols/*.bck
+**/.vscode
+**/.pro.user
+**/freerouter.log
