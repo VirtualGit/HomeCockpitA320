@@ -28,6 +28,8 @@ private slots:
 
 private slots:
     void on_btnApplyJHPort_clicked();
+    void on_btnGenerateParametersH_clicked();
+    void on_btnGenerateJeeHell_clicked();
 };
 
 #endif // MAINWINDOW_H

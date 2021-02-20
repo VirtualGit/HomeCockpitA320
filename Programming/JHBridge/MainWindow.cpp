@@ -96,3 +96,13 @@ void MainWindow::on_btnApplyJHPort_clicked()
     _bridge->getTCPManager()->setPort( ui->lineEdit->text().toInt() );
     ui->lineEdit->setText( QString::number(_bridge->getTCPManager()->port()));
 }
+
+void MainWindow::on_btnGenerateParametersH_clicked()
+{
+
+}
+
+void MainWindow::on_btnGenerateJeeHell_clicked()
+{
+
+}
