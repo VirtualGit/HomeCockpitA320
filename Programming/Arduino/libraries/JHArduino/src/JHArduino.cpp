@@ -47,7 +47,7 @@ Variable *JHArduino::createVariable(JHVariable variable)
 
 Variable *JHArduino::createVariable(JHVariable variable, T_UPDATE_EVENT callback)
 {
-    Variable newVariable = Variable(variable, callback);
+    Variable newVariable = Variable(this, variable, callback);
     _variables.push_back(newVariable);
     return &(_variables.back());
 }
@@ -107,6 +107,14 @@ size_t JHArduino::readLine(char *intoBuffer, size_t size)
 }
 
 
+void JHArduino::sendValue(JHVariable variable, int value)
+{
+    _stream.print(variable);
+    _stream.print("=");
+    _stream.println(value);
+}
+
+
 void JHArduino::sendIdentification()
 {
     _stream.print("JHArduinoBoard:");
@@ -125,7 +133,7 @@ void JHArduino::readValue(const char* idVar, const char* value)
     {
         if( var.idVar() == atoi(idVar) )
         {
-            var.setValue(atoi(value));
+            var.newValueReceived(atoi(value));
         }
     }
 }

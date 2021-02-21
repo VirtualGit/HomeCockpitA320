@@ -48,6 +48,8 @@ class JHArduino {
 
         void update();
 
+        void sendValue(JHVariable variable, int value);
+
     private:
 
         size_t readLine(char* intoBuffer, size_t size);

@@ -34,12 +34,15 @@
 
 #include "parameters.h"
 
+class JHArduino;
+
 class Variable {
     public:
 
         Variable();
-        Variable(JHVariable variable, T_UPDATE_EVENT callback);
+        Variable(JHArduino* jharduino, JHVariable variable, T_UPDATE_EVENT callback);
 
+        void newValueReceived(int value);
         void setValue(int value);
 
         JHVariable idVar() const { return _idVariable; }
@@ -47,6 +50,8 @@ class Variable {
         bool hasChanged() const { return _changed; }
 
     private:
+
+        JHArduino* _jharduino;
 
         JHVariable _idVariable;
         int _value;

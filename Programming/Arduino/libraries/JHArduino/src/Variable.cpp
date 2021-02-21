@@ -26,9 +26,11 @@
  */
 
 #include "Variable.h"
+#include "JHArduino.h"
 
 Variable::Variable()
-    :_idVariable(undefined)
+    :_jharduino(nullptr)
+    ,_idVariable(undefined)
     ,_value(0)
     ,_changed(true)
     ,_callback(nullptr)
@@ -36,8 +38,9 @@ Variable::Variable()
 }
 
 
-Variable::Variable(JHVariable variable, T_UPDATE_EVENT callback)
-    :_idVariable(variable)
+Variable::Variable(JHArduino* jharduino, JHVariable variable, T_UPDATE_EVENT callback)
+    :_jharduino(jharduino)
+    ,_idVariable(variable)
     ,_value(0)
     ,_changed(true)
     ,_callback(callback)
@@ -45,7 +48,8 @@ Variable::Variable(JHVariable variable, T_UPDATE_EVENT callback)
 }
 
 
-void Variable::setValue(int value)
+
+void Variable::newValueReceived(int value)
 {
     int oldValue = _value;
     _value = value;
@@ -54,6 +58,15 @@ void Variable::setValue(int value)
     if( _callback != nullptr )
     {
         _callback(oldValue, value);
+    }
+}
+
+void Variable::setValue(int value)
+{
+    _value = value;
+    if( _jharduino != nullptr )
+    {
+        _jharduino->sendValue(_idVariable, value);
     }
 }
 
