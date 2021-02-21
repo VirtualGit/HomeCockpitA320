@@ -2,10 +2,15 @@
 #include <JHArduino.h>
 
 #include <LedControl.h>
+#include <AnalogButtons.h>
 
 JHArduino simu = JHArduino(Serial, "FCU", 8);
 
 LedControl lc = LedControl(12, 11, 10, 2, true);
+
+AnalogButtons analogButtons = AnalogButtons(A0, INPUT, 2, 20);
+
+Variable* athrSwitch;
 
 void setup()
 {
@@ -35,6 +40,18 @@ void setup()
         }
     );
 
+    athrSwitch = simu.createVariable(JHVariable::ATHRsw);
+
+    // Add a button
+    analogButtons.add(Button(938, []()->void {
+        athrSwitch->setValue(1);
+        //athrSwitch->setValue(0);
+    }));
+
+    // Add a second button
+    analogButtons.add(Button(834, []()->void {
+        Serial.println("2 short click");
+    }));
 }
 
 int val=0;
@@ -42,9 +59,7 @@ int val=0;
 void loop()
 {
     simu.update();
-/*
-    val++;
-    lc.setDigit(1,0,val%10 ,true);
-    
-    delay(100);*/
+    analogButtons.check();
+    //Serial.println(analogRead(A0));
+    //delay(100);
 }
