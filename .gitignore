@@ -12,3 +12,5 @@ Electronic/libraries/symbols/*.bck
 **/.vscode
 **/.pro.user
 **/freerouter.log
+**/*.o
+build
