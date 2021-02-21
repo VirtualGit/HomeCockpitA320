@@ -32,8 +32,9 @@ enum JHVariable {
    SPDMACHsw = 25,
    HDGTKsw = 26,
    METRIC = 27,
-   BAT1disp = 28,
-   BAT2disp = 29,
+   SPDencoderVar = 28,
+   BAT1disp = 29,
+   BAT2disp = 30,
 };
 
 #endif //PARAMETERS_H
