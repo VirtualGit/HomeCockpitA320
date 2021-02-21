@@ -34,6 +34,8 @@
 #include "Variable.h"
 #include "types.h"
 
+#include "parameters.h"
+
 #define MAX_ALLOWED_LINE_LENGTH 128
 
 class JHArduino {
@@ -41,8 +43,8 @@ class JHArduino {
 
         JHArduino(Stream& stream, String boardName, int maximumVariables);
 
-        Variable* createVariable(const char* name);
-        Variable* createVariable(const char* name, T_UPDATE_EVENT callback);
+        Variable* createVariable(JHVariable variable);
+        Variable* createVariable(JHVariable variable, T_UPDATE_EVENT callback);
 
         void update();
 

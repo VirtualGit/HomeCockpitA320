@@ -1,6 +1,7 @@
 #ifndef SERIALMANAGER_H
 #define SERIALMANAGER_H
 
+#include "SIOCCatalog.h"
 #include "Message.h"
 #include "SerialPort.h"
 #include <QAbstractTableModel>
@@ -10,7 +11,7 @@ class SerialManager : public QAbstractTableModel
     Q_OBJECT
 
 public:
-    SerialManager( SIOCMapping *siocMapping, QObject *parent = NULL );
+    SerialManager( SIOCCatalog *siocCatalog, QObject *parent = NULL );
     virtual ~SerialManager() {}
 
     int count(){ return _ports.count() ; }
@@ -28,8 +29,9 @@ public:
 
 protected:
 
-    SIOCMapping* _siocMapping;
     QList<SerialPort*> _ports;
+
+    SIOCCatalog* _siocCatalog;
 
     void send(SerialPort *port, const Message &msg);
 

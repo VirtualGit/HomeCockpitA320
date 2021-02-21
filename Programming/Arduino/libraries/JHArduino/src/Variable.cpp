@@ -28,7 +28,7 @@
 #include "Variable.h"
 
 Variable::Variable()
-    :_name(nullptr)
+    :_idVariable(undefined)
     ,_value(0)
     ,_changed(true)
     ,_callback(nullptr)
@@ -36,15 +36,12 @@ Variable::Variable()
 }
 
 
-Variable::Variable(const char* name, T_UPDATE_EVENT callback)
-    :_value(0)
+Variable::Variable(JHVariable variable, T_UPDATE_EVENT callback)
+    :_idVariable(variable)
+    ,_value(0)
     ,_changed(true)
     ,_callback(callback)
 {
-
-    int nameLength = strlen(name);
-    _name = new char[nameLength+1];
-    snprintf(_name, nameLength+1, "%s", name);
 }
 
 

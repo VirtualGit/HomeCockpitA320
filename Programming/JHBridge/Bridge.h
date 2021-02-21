@@ -3,7 +3,7 @@
 
 #include "TCPManager.h"
 #include "SerialManager.h"
-#include "SIOCMapping.h"
+#include "SIOCCatalog.h"
 #include "Log.h"
 
 #include <QObject>
@@ -13,15 +13,17 @@ class Bridge : public QObject
     Q_OBJECT
 
 public:
-    Bridge( SIOCMapping* siocMapping, TCPManager *tcpManager, SerialManager *serialManager );
+    Bridge( SIOCCatalog* siocCatalog, TCPManager *tcpManager, SerialManager *serialManager );
 
 
-    TCPManager* getTCPManager() { return _tcpManager; }
-    SerialManager* getSerialManager() { return _serialManager; }
+    TCPManager* getTCPManager() const { return _tcpManager; }
+    SerialManager* getSerialManager() const { return _serialManager; }
+
+    SIOCCatalog* getSIOCCatalog() const { return _siocCatalog; }
 
 private:
 
-    SIOCMapping *_siocMapping;
+    SIOCCatalog *_siocCatalog;
 
     TCPManager *_tcpManager;
     SerialManager *_serialManager;

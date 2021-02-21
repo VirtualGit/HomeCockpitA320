@@ -40,18 +40,16 @@ JHArduino::JHArduino(Stream &stream, String boardName, int maximumVariables)
     _variables.setStorage(_storageVariable, 64, 0);
 }
 
-Variable *JHArduino::createVariable(const char* name)
+Variable *JHArduino::createVariable(JHVariable variable)
 {
-    return createVariable(name, nullptr);
+    return createVariable(variable, nullptr);
 }
 
-Variable *JHArduino::createVariable(const char* name, T_UPDATE_EVENT callback)
+Variable *JHArduino::createVariable(JHVariable variable, T_UPDATE_EVENT callback)
 {
-    Variable newVariable = Variable(name, callback);
+    Variable newVariable = Variable(variable, callback);
     _variables.push_back(newVariable);
     return &(_variables.back());
-
-    return nullptr;
 }
 
 void JHArduino::update()
@@ -116,16 +114,16 @@ void JHArduino::sendIdentification()
     for(Variable& var : _variables)
     {
         _stream.print(":");
-        _stream.print(var.name());
+        _stream.print(var.idVar());
     }
     _stream.println("");
 }
 
-void JHArduino::readValue(const char* name, const char* value)
+void JHArduino::readValue(const char* idVar, const char* value)
 {
     for(Variable& var : _variables)
     {
-        if( strcmp(var.name(), name) == 0 )
+        if( var.idVar() == atoi(idVar) )
         {
             var.setValue(atoi(value));
         }

@@ -4,9 +4,9 @@
 #include <QDebug>
 #include <QColor>
 
-SerialManager::SerialManager( SIOCMapping *siocMapping, QObject *parent )
+SerialManager::SerialManager( SIOCCatalog *siocCatalog, QObject *parent )
     :QAbstractTableModel(parent)
-    , _siocMapping( siocMapping )
+    , _siocCatalog( siocCatalog )
 {
 
     /*this->setHeaderData(0, Qt::Horizontal, "Port", Qt::DisplayRole);
@@ -53,7 +53,7 @@ void SerialManager::updateList()
 
             emit log(Log("SerialManager", itSPI->portName() + " connected"));
 
-            SerialPort *serialPort = new SerialPort(_siocMapping, *itSPI);
+            SerialPort *serialPort = new SerialPort(_siocCatalog, *itSPI);
             connect(serialPort, SIGNAL(receive(SerialPort*,Message)), this, SLOT(receive(SerialPort*,Message)));
             connect(serialPort, SIGNAL(statusChanged(SerialPort*)), this, SLOT(statusChanged(SerialPort*)) );
             connect(serialPort, SIGNAL(log(SerialPort*,Log)), this, SLOT(log(SerialPort*,Log)) );
@@ -96,7 +96,7 @@ void SerialManager::send(const Message &msg)
     it = _ports.begin();
     while( it != _ports.end() )
     {
-        if( (*it)->isWatchingVariable(msg.varName()) )
+        if( (*it)->isWatchingVariable(msg.id()) )
         {
             send(*it,msg);
         }

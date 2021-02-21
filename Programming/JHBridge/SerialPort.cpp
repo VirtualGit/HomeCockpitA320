@@ -4,10 +4,10 @@
 #include <QMessageBox>
 
 
-SerialPort::SerialPort( SIOCMapping *siocMapping, const QSerialPortInfo &port)
+SerialPort::SerialPort( SIOCCatalog *siocCatalog, const QSerialPortInfo &port)
     : _info( port )
     ,_isArduino( true )
-    ,_siocMapping( siocMapping )
+    ,_siocCatalog( siocCatalog )
     ,_status( CONNECTING )
 {
     _serial.setPort(port);
@@ -24,13 +24,23 @@ SerialPort::SerialPort( SIOCMapping *siocMapping, const QSerialPortInfo &port)
 }
 
 
+SerialPort::~SerialPort()
+{
+    for(int idVar : _variables)
+    {
+        _siocCatalog->unuseVariable(idVar);
+    }
+
+}
+
+
 void SerialPort::retreiveBoardName()
 {
     connect();
 
     emit log(this, Log(_info.portName(), "Connecting..."));
     _boardName = "";
-    _varNames.clear();
+    _variables.clear();
     if( _serial.isOpen() )
     {
         emit log(this, Log(_info.portName(), "Connected. Request identification..."));
@@ -82,15 +92,17 @@ void SerialPort::readyRead()
 
             emit log(this, Log(_info.portName(), "Identification received"));
             qDebug()<<"Init recu de serial : "<<line;
-            QStringList names = pattern.cap(1).split(":");
-            QList<QString>::const_iterator it = names.begin();
+            QStringList idsStr = pattern.cap(1).split(":");
+            QList<QString>::const_iterator it = idsStr.begin();
             _boardName = *it ;
             ++it;
-            while( it != names.end() )
+            while( it != idsStr.end() )
             {
+                int id = (*it).toInt();
                 // Keep variable to forward new values to boards using it
-                _varNames.insert(*it);
-                qDebug()<<"Var de la carte "<<_boardName<<" "<< *it;
+                _variables.insert(id);
+                _siocCatalog->useVariable(id);
+                qDebug()<<"Var de la carte "<<_boardName<<" "<< id;
                 ++it;
             }
             emit statusChanged( this );
@@ -110,7 +122,7 @@ void SerialPort::readyRead()
             else
             {
                 emit log(this, Log(_info.portName(), line));
-                emit receive(this, Message::fromSerial(line, _siocMapping) );
+                emit receive(this, Message::fromSerial(line) );
             }
         }
     }
@@ -135,9 +147,9 @@ void SerialPort::checkStatus()
 }
 
 
-bool SerialPort::isWatchingVariable( const QString &name )
+bool SerialPort::isWatchingVariable( int id ) const
 {
-    return _varNames.find(name) != _varNames.end();
+    return _variables.find(id) != _variables.end();
 }
 
 

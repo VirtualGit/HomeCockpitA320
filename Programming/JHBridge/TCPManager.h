@@ -1,7 +1,6 @@
 #ifndef TCPMANAGER_H
 #define TCPMANAGER_H
 
-#include "SIOCMapping.h"
 #include "Message.h"
 #include "Log.h"
 
@@ -25,7 +24,7 @@ public:
     } STATUS;
 
 public:
-    TCPManager( SIOCMapping *siocMapping, int port = 8092 );
+    TCPManager( int port = 8092 );
     ~TCPManager(){}
 
     // Start listening
@@ -55,8 +54,6 @@ private:
 
     // Main status
     STATUS _status;
-
-    SIOCMapping *_siocMapping;
 
 
 signals:

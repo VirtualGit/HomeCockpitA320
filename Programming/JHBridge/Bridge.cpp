@@ -1,8 +1,8 @@
 #include "Bridge.h"
 
 
-Bridge::Bridge( SIOCMapping* siocMapping, TCPManager *tcpManager, SerialManager *serialManager )
-    : _siocMapping( siocMapping )
+Bridge::Bridge( SIOCCatalog* siocCatalog, TCPManager *tcpManager, SerialManager *serialManager )
+    : _siocCatalog( siocCatalog )
     , _tcpManager( tcpManager )
     , _serialManager( serialManager )
 {

@@ -4,7 +4,6 @@
 #include <LedControl.h>
 
 JHArduino simu = JHArduino(Serial, "FCU", 8);
-Variable* speed;
 
 LedControl lc = LedControl(12, 11, 10, 2, true);
 
@@ -18,14 +17,19 @@ void setup()
     
     pinMode(LED_BUILTIN, OUTPUT);
 
-        //wake up the MAX72XX from power-saving mode
+    //wake up the MAX72XX from power-saving mode
     lc.shutdown(0, false);
     lc.shutdown(1, false);
     //set a medium brightness for the Leds
     lc.setIntensity(1, 15);
 
     lc.setDigit(1,0,0 ,false);
-    speed = simu.createVariable("SPD_disp", [](int oldValue, int newValue)->void
+    simu.createVariable(JHVariable::ATHRled, [](int oldValue, int newValue)->void
+        {
+            digitalWrite(LED_BUILTIN,newValue);
+        }
+    );
+    simu.createVariable(JHVariable::SPDdisp, [](int oldValue, int newValue)->void
         {
             lc.setDigit(1,0,newValue%10 ,false);
         }

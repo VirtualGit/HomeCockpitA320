@@ -12,15 +12,11 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
 
-
-    // Create SIOC Mapping object
-    SIOCMapping siocMapping( "" );
-    // Temporary manual mapping for debugging
-    siocMapping.addMapping(2, "SPD_disp");
+    SIOCCatalog siocCatalog("parameters.json");
 
     // Create network managers
-    SerialManager serialManager( &siocMapping );
-    TCPManager tcpManager( &siocMapping );
+    SerialManager serialManager(&siocCatalog);
+    TCPManager tcpManager;
 
     // To be improved !
     QTimer updateSerialTimer;
@@ -28,7 +24,7 @@ int main(int argc, char *argv[])
     QObject::connect( &updateSerialTimer, SIGNAL(timeout()), &serialManager, SLOT(updateList()) );
 
     // Create bridge between managers
-    Bridge bridge( &siocMapping, &tcpManager, &serialManager );
+    Bridge bridge( &siocCatalog, &tcpManager, &serialManager );
 
     // Create windows
     MainWindow w( &bridge );

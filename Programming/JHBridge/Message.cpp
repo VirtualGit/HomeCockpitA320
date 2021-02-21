@@ -7,37 +7,35 @@ using std::ostringstream;
 
 
 
-Message Message::fromSerial(QString data, SIOCMapping *siocMapping)
+Message Message::fromSerial(QString data)
 {
     QRegExp pattern("([^=]+)=(-?[0-9]+)");
     int pos = pattern.indexIn(data);
     if (pos > -1) {
-        QString varName = pattern.cap(1);
-        int id = siocMapping->nameToIdVar( varName );
+        int id = pattern.cap(1).toInt();
         QString value = pattern.cap(2);
-        return Message(id, varName, value);
+        return Message(id, value);
     }
     else
     {
         //TODO throw exception
-        return Message(-1,"","");
+        return Message(-1,"");
     }
 }
 
-Message Message::fromTCP(QString data, SIOCMapping *siocMapping)
+Message Message::fromTCP(QString data)
 {
     QRegExp pattern("Arn.Resp:([0-9]+)=([^:]+):");
     int pos = pattern.indexIn(data);
     if (pos > -1) {
         int id = pattern.cap(1).toInt();
-        QString varName = siocMapping->idVarToName(id);
         QString value = pattern.cap(2);
-        return Message(id, varName, value);
+        return Message(id, value);
     }
     else
     {
         //TODO throw exception
-        return Message(-1,"","");
+        return Message(-1,"");
     }
 }
 
@@ -50,5 +48,5 @@ QString Message::toTCP() const
 
 QString Message::toSerial() const
 {
-    return _varName + "=" + _value + "\n";
+    return QString().number(_id) + "=" + _value + "\n";
 }

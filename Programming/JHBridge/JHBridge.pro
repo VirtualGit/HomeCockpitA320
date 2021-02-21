@@ -10,7 +10,7 @@ QT       += network
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = JHArduino
+TARGET = JHBridge
 TEMPLATE = app
 
 RESOURCES += resources.qrc
@@ -23,9 +23,10 @@ SOURCES += main.cpp\
     TCPManager.cpp \
     Bridge.cpp \
     SerialManager.cpp \
-    SIOCMapping.cpp \
     Message.cpp \
-    Log.cpp
+    Log.cpp \
+    SIOCCatalog.cpp \
+    Variable.cpp
 
 HEADERS  += \
     MainWindow.h \
@@ -33,9 +34,10 @@ HEADERS  += \
     TCPManager.h \
     Bridge.h \
     SerialManager.h \
-    SIOCMapping.h \
     Message.h \
-    Log.h
+    Log.h \
+    SIOCCatalog.h \
+    Variable.h
 
 FORMS    += mainwindow.ui
 

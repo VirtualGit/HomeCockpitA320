@@ -1,11 +1,10 @@
 #include "TCPManager.h"
 
 
-TCPManager::TCPManager( SIOCMapping *siocMapping, int port )
+TCPManager::TCPManager( int port )
     :_socket ( NULL)
     ,_port( port )
     ,_status(DISCONNECTED)
-    ,_siocMapping( siocMapping )
 {
     connect(&_server, SIGNAL(newConnection()), this, SLOT(incomingConnection()));
 
@@ -61,9 +60,9 @@ void TCPManager::incomingConnection()
     _status = CONNECTED;
     emit statusChanged();
 
-    qDebug()<<"Envoie TCP :"<< _siocMapping->initString();
+    /*qDebug()<<"Envoie TCP :"<< _siocMapping->initString();
     _socket->write( _siocMapping->initString().toStdString().c_str() );
-    _socket->flush();
+    _socket->flush();*/
 }
 
 void TCPManager::disconnected()
@@ -84,7 +83,7 @@ void TCPManager::receive()
         line.remove( QRegExp("[\r\n]*$") );
 
         emit log(Log("JeeHell",line));
-        emit receive(Message::fromTCP(line, _siocMapping));
+        emit receive(Message::fromTCP(line));
     }
 }
 

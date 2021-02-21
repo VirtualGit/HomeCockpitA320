@@ -5,6 +5,7 @@
 #include <QTableWidgetItem>
 #include <QScrollBar>
 #include <QDateTime>
+#include <QFileDialog>
 
 MainWindow::MainWindow(Bridge* bridge, QWidget *parent) :
     QMainWindow(parent),
@@ -99,10 +100,22 @@ void MainWindow::on_btnApplyJHPort_clicked()
 
 void MainWindow::on_btnGenerateParametersH_clicked()
 {
-
+    QString filePath = QFileDialog::getSaveFileName(this,
+            tr("Save variables.h file"), "",
+            tr("C Header file (*.h);;All Files (*)"));
+    if( !filePath.isEmpty() )
+    {
+        _bridge->getSIOCCatalog()->exportJHArduinoHeader(filePath);
+    }
 }
 
 void MainWindow::on_btnGenerateJeeHell_clicked()
 {
-
+    QString filePath = QFileDialog::getSaveFileName(this,
+            tr("Save FMGSServer.iocp.ini file"), "",
+            tr("FMGSServer.iocp.ini (FMGSServer.iocp.ini);All Files (*)"));
+    if( !filePath.isEmpty() )
+    {
+        _bridge->getSIOCCatalog()->exportFMGSServerIOCP(filePath);
+    }
 }

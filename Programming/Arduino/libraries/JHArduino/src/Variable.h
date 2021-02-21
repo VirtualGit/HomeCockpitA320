@@ -32,22 +32,23 @@
 #include <Arduino.h>
 #include "types.h"
 
+#include "parameters.h"
+
 class Variable {
     public:
 
         Variable();
-        Variable(const char* name, T_UPDATE_EVENT callback);
-
-        const char* name() const { return _name; }
+        Variable(JHVariable variable, T_UPDATE_EVENT callback);
 
         void setValue(int value);
 
+        JHVariable idVar() const { return _idVariable; }
         int value();
         bool hasChanged() const { return _changed; }
 
     private:
 
-        char* _name;
+        JHVariable _idVariable;
         int _value;
         bool _changed;
         T_UPDATE_EVENT _callback;

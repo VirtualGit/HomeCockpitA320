@@ -1,7 +1,7 @@
 #ifndef SERIALPORT_H
 #define SERIALPORT_H
 
-#include "SIOCMapping.h"
+#include "SIOCCatalog.h"
 #include "Message.h"
 #include "Log.h"
 
@@ -29,7 +29,8 @@ public:
     } STATUS;
 
 public:
-    SerialPort( SIOCMapping *siocMapping, const QSerialPortInfo &port );
+    SerialPort( SIOCCatalog *siocCatalog, const QSerialPortInfo &port );
+    virtual ~SerialPort();
 
     const QSerialPortInfo& getInfo() const { return _info ; }
 
@@ -38,7 +39,7 @@ public:
     bool isArduino() { return _isArduino; }
     void connect();
 
-    bool isWatchingVariable( const QString &name );
+    bool isWatchingVariable( int id ) const;
 
     void send(const Message &msg);
 
@@ -50,8 +51,8 @@ private:
 
     bool _isArduino;
     QString _boardName;
-    QSet< QString > _varNames;
-    SIOCMapping *_siocMapping;
+    QSet< int > _variables;
+    SIOCCatalog *_siocCatalog;
 
     STATUS _status;
 
