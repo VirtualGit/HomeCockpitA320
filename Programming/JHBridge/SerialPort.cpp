@@ -81,11 +81,27 @@ void SerialPort::connect()
 
 void SerialPort::readyRead()
 {
-    while( _serial.bytesAvailable() )
-    {
-        QString line = _serial.readLine();
-        line.remove( QRegExp("[\r\n]*$") );
+    // _serial.readLine() may return before the end of line, breaking it, and make one command missed.
+    // So use a buffer
 
+    QStringList linesToProcess;
+
+    // TODO improve
+    char c;
+    while( _serial.bytesAvailable() && _serial.getChar(&c))
+    {
+        _buffer += c;
+        if( c == 10 )
+        {
+            linesToProcess << _buffer;
+            _buffer = "";
+        }
+    }
+
+
+    for(QString line : linesToProcess)
+    {
+        line.remove( QRegExp("[\r\n]*$") );
         QRegExp pattern("JHArduinoBoard:(.+)");
         int pos = pattern.indexIn(line);
         if (pos > -1) {

@@ -49,6 +49,8 @@ private:
     QSerialPortInfo _info;
     QSerialPort _serial;
 
+    QString _buffer;
+
     bool _isArduino;
     QString _boardName;
     QSet< int > _variables;
