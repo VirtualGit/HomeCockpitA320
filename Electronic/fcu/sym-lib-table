@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name home-cockpit-symbols)(type Legacy)(uri ${KIPRJMOD}/../libraries/symbols/symbols.lib)(options "")(descr ""))
   (lib (name fcu-display-rescue)(type Legacy)(uri ${KIPRJMOD}/fcu-display-rescue.lib)(options "")(descr "")(disabled))
+  (lib (name arduino)(type Legacy)(uri ${KIPRJMOD}/../libraries/symbols/arduino.lib)(options "")(descr ""))
 )
