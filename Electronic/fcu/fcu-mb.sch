@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L home-cockpit-symbols:Connector-FPC-50pins U101
+L home-cockpit-symbols:Connector-FPC-50pins DisplayConnector1
 U 1 1 605E3D2A
 P 900 3150
-F 0 "U101" H 800 5750 50  0000 L CNN
+F 0 "DisplayConnector1" H 550 5750 50  0000 L CNN
 F 1 "Connector-FPC-50pins" H 450 5650 50  0000 L CNN
 F 2 "home-cockpit-footprints:Connector-FPC-50pins-0.5mm" H 900 3150 50  0001 C CNN
 F 3 "https://www.conrad.fr/p/barrette-femelle-standard-serie-zif-fpc-wurth-elektronik-68715014022-nbr-total-de-poles-50-pas-050-mm-1-pcs-709141" H 900 3150 50  0001 C CNN
@@ -242,10 +242,10 @@ F0 "fcu-mb-display-drivers" 50
 F1 "fcu-mb-display-drivers.sch" 50
 $EndSheet
 $Comp
-L Connector:Conn_Coaxial_Power J1
+L Connector:Conn_Coaxial_Power PWR1
 U 1 1 602C25C0
 P 2750 1150
-F 0 "J1" V 2533 1100 50  0000 C CNN
+F 0 "PWR1" V 2533 1100 50  0000 C CNN
 F 1 "Conn_Coaxial_Power" V 2624 1100 50  0000 C CNN
 F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 2750 1100 50  0001 C CNN
 F 3 "~" H 2750 1100 50  0001 C CNN

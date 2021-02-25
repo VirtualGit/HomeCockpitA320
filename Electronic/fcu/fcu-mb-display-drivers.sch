@@ -18,8 +18,8 @@ L Driver_LED:MAX7219 U?
 U 1 1 602F293B
 P 3950 3650
 AR Path="/602F293B" Ref="U?"  Part="1" 
-AR Path="/602DB478/602F293B" Ref="U1"  Part="1" 
-F 0 "U1" H 3950 4831 50  0000 C CNN
+AR Path="/602DB478/602F293B" Ref="DriverSpeedAlt1"  Part="1" 
+F 0 "DriverSpeedAlt1" H 3950 4831 50  0000 C CNN
 F 1 "MAX7219" H 3950 4740 50  0000 C CNN
 F 2 "Package_DIP:DIP-24_W7.62mm_Socket" H 3900 3700 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf" H 4000 3500 50  0001 C CNN
@@ -31,8 +31,8 @@ L Driver_LED:MAX7219 U?
 U 1 1 602F2941
 P 5750 3650
 AR Path="/602F2941" Ref="U?"  Part="1" 
-AR Path="/602DB478/602F2941" Ref="U2"  Part="1" 
-F 0 "U2" H 5750 4831 50  0000 C CNN
+AR Path="/602DB478/602F2941" Ref="DriverHdgVs1"  Part="1" 
+F 0 "DriverHdgVs1" H 5750 4831 50  0000 C CNN
 F 1 "MAX7219" H 5750 4740 50  0000 C CNN
 F 2 "Package_DIP:DIP-24_W7.62mm_Socket" H 5700 3700 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf" H 5800 3500 50  0001 C CNN
@@ -44,8 +44,8 @@ L Driver_LED:MAX7219 U?
 U 1 1 602F2947
 P 7400 3650
 AR Path="/602F2947" Ref="U?"  Part="1" 
-AR Path="/602DB478/602F2947" Ref="U3"  Part="1" 
-F 0 "U3" H 7400 4831 50  0000 C CNN
+AR Path="/602DB478/602F2947" Ref="DriverOther1"  Part="1" 
+F 0 "DriverOther1" H 7400 4831 50  0000 C CNN
 F 1 "MAX7219" H 7400 4740 50  0000 C CNN
 F 2 "Package_DIP:DIP-24_W7.62mm_Socket" H 7350 3700 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf" H 7450 3500 50  0001 C CNN

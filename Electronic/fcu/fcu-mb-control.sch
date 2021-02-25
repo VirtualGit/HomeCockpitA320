@@ -47,36 +47,25 @@ F 3 "~" H 8900 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L home-cockpit-symbols:Rotary_Encoder_VccGnd ROT_HDG1
+L Device:Rotary_Encoder ROT_HDG1
 U 1 1 6035BB21
-P 4900 3200
-F 0 "ROT_HDG1" H 5130 3246 50  0000 L CNN
-F 1 "Rotary_Encoder" H 5130 3155 50  0000 L CNN
-F 2 "home-cockpit-footprints:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical_RotaryEncoder" H 4750 3360 50  0001 C CNN
-F 3 "~" H 4900 3460 50  0001 C CNN
-	1    4900 3200
+P 4900 3250
+F 0 "ROT_HDG1" H 5130 3296 50  0000 L CNN
+F 1 "Rotary_Encoder" H 5130 3205 50  0000 L CNN
+F 2 "home-cockpit-footprints:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical_RotaryEncoder" H 4750 3410 50  0001 C CNN
+F 3 "~" H 4900 3510 50  0001 C CNN
+	1    4900 3250
 	1    0    0    -1  
 $EndComp
 $Comp
-L home-cockpit-symbols:Korry K_AP1
+L home-cockpit-symbols:Korry KORRY_AP1
 U 1 1 603618E2
 P 2350 6600
-F 0 "K_AP1" H 2350 6965 50  0000 C CNN
+F 0 "KORRY_AP1" H 2350 6965 50  0000 C CNN
 F 1 "Korry" H 2350 6874 50  0000 C CNN
 F 2 "Connector_JST:JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical" H 2450 6800 50  0001 C CNN
 F 3 "" H 2450 6800 50  0001 C CNN
 	1    2350 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L home-cockpit-symbols:Korry K_AP2
-U 1 1 60362782
-P 5000 6700
-F 0 "K_AP2" H 5000 7065 50  0000 C CNN
-F 1 "Korry" H 5000 6974 50  0000 C CNN
-F 2 "Connector_JST:JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical" H 5100 6900 50  0001 C CNN
-F 3 "" H 5100 6900 50  0001 C CNN
-	1    5000 6700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -157,17 +146,6 @@ F 3 "~" H 4900 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L home-cockpit-symbols:Rotary_Encoder_VccGnd ROT_ALT1
-U 1 1 6036FA53
-P 7650 3200
-F 0 "ROT_ALT1" H 7880 3246 50  0000 L CNN
-F 1 "Rotary_Encoder" H 7880 3155 50  0000 L CNN
-F 2 "home-cockpit-footprints:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical_RotaryEncoder" H 7500 3360 50  0001 C CNN
-F 3 "~" H 7650 3460 50  0001 C CNN
-	1    7650 3200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_Push SW_PUSH_ALT1
 U 1 1 6036FA59
 P 7650 2850
@@ -212,14 +190,14 @@ F 3 "~" H 9850 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L home-cockpit-symbols:Rotary_Encoder_VccGnd ROT_VS1
+L Device:Rotary_Encoder ROT_VS1
 U 1 1 6037020E
-P 9850 3150
-F 0 "ROT_VS1" H 10080 3196 50  0000 L CNN
-F 1 "Rotary_Encoder" H 10080 3105 50  0000 L CNN
-F 2 "home-cockpit-footprints:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical_RotaryEncoder" H 9700 3310 50  0001 C CNN
-F 3 "~" H 9850 3410 50  0001 C CNN
-	1    9850 3150
+P 9850 3200
+F 0 "ROT_VS1" H 10080 3246 50  0000 L CNN
+F 1 "Rotary_Encoder" H 10080 3155 50  0000 L CNN
+F 2 "home-cockpit-footprints:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical_RotaryEncoder" H 9700 3360 50  0001 C CNN
+F 3 "~" H 9850 3460 50  0001 C CNN
+	1    9850 3200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -335,50 +313,50 @@ BTN_GRP_1
 $Comp
 L power:+5V #PWR?
 U 1 1 60453E83
-P 1350 5150
+P 1150 5100
 AR Path="/60453E83" Ref="#PWR?"  Part="1" 
 AR Path="/602DBA9D/60453E83" Ref="#PWR0112"  Part="1" 
-F 0 "#PWR0112" H 1350 5000 50  0001 C CNN
-F 1 "+5V" H 1365 5323 50  0000 C CNN
-F 2 "" H 1350 5150 50  0001 C CNN
-F 3 "" H 1350 5150 50  0001 C CNN
-	1    1350 5150
+F 0 "#PWR0112" H 1150 4950 50  0001 C CNN
+F 1 "+5V" H 1165 5273 50  0000 C CNN
+F 2 "" H 1150 5100 50  0001 C CNN
+F 3 "" H 1150 5100 50  0001 C CNN
+	1    1150 5100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R6
 U 1 1 60453E89
 P 1550 5450
-F 0 "R6" V 1343 5450 50  0000 C CNN
-F 1 "33kOhms" V 1434 5450 50  0000 C CNN
+F 0 "R6" V 1550 5450 50  0000 C CNN
+F 1 "33kOhms" V 1650 5450 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1480 5450 50  0001 C CNN
 F 3 "~" H 1550 5450 50  0001 C CNN
 	1    1550 5450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1400 5450 1350 5450
+	1400 5450 1150 5450
 Wire Wire Line
-	1350 5450 1350 5150
+	1150 5450 1150 5100
 $Comp
 L power:+5V #PWR?
 U 1 1 6045448B
-P 3950 5150
+P 3950 5050
 AR Path="/6045448B" Ref="#PWR?"  Part="1" 
 AR Path="/602DBA9D/6045448B" Ref="#PWR0113"  Part="1" 
-F 0 "#PWR0113" H 3950 5000 50  0001 C CNN
-F 1 "+5V" H 3965 5323 50  0000 C CNN
-F 2 "" H 3950 5150 50  0001 C CNN
-F 3 "" H 3950 5150 50  0001 C CNN
-	1    3950 5150
+F 0 "#PWR0113" H 3950 4900 50  0001 C CNN
+F 1 "+5V" H 3965 5223 50  0000 C CNN
+F 2 "" H 3950 5050 50  0001 C CNN
+F 3 "" H 3950 5050 50  0001 C CNN
+	1    3950 5050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R12
 U 1 1 60454491
 P 4150 5450
-F 0 "R12" V 3943 5450 50  0000 C CNN
-F 1 "47kOhms" V 4034 5450 50  0000 C CNN
+F 0 "R12" V 4150 5450 50  0000 C CNN
+F 1 "47kOhms" V 4250 5500 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4080 5450 50  0001 C CNN
 F 3 "~" H 4150 5450 50  0001 C CNN
 	1    4150 5450
@@ -386,27 +364,25 @@ F 3 "~" H 4150 5450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4000 5450 3950 5450
-Wire Wire Line
-	3950 5450 3950 5150
 $Comp
 L power:+5V #PWR?
 U 1 1 60454CD9
-P 6400 5150
+P 6400 5050
 AR Path="/60454CD9" Ref="#PWR?"  Part="1" 
 AR Path="/602DBA9D/60454CD9" Ref="#PWR0114"  Part="1" 
-F 0 "#PWR0114" H 6400 5000 50  0001 C CNN
-F 1 "+5V" H 6415 5323 50  0000 C CNN
-F 2 "" H 6400 5150 50  0001 C CNN
-F 3 "" H 6400 5150 50  0001 C CNN
-	1    6400 5150
+F 0 "#PWR0114" H 6400 4900 50  0001 C CNN
+F 1 "+5V" H 6415 5223 50  0000 C CNN
+F 2 "" H 6400 5050 50  0001 C CNN
+F 3 "" H 6400 5050 50  0001 C CNN
+	1    6400 5050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R16
 U 1 1 60454CDF
 P 6600 5450
-F 0 "R16" V 6393 5450 50  0000 C CNN
-F 1 "68kOhms" V 6484 5450 50  0000 C CNN
+F 0 "R16" V 6600 5450 50  0000 C CNN
+F 1 "68kOhms" V 6700 5450 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6530 5450 50  0001 C CNN
 F 3 "~" H 6600 5450 50  0001 C CNN
 	1    6600 5450
@@ -414,27 +390,25 @@ F 3 "~" H 6600 5450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6450 5450 6400 5450
-Wire Wire Line
-	6400 5450 6400 5150
 $Comp
 L power:+5V #PWR?
 U 1 1 6045526F
-P 8500 5150
+P 8500 5000
 AR Path="/6045526F" Ref="#PWR?"  Part="1" 
 AR Path="/602DBA9D/6045526F" Ref="#PWR0115"  Part="1" 
-F 0 "#PWR0115" H 8500 5000 50  0001 C CNN
-F 1 "+5V" H 8515 5323 50  0000 C CNN
-F 2 "" H 8500 5150 50  0001 C CNN
-F 3 "" H 8500 5150 50  0001 C CNN
-	1    8500 5150
+F 0 "#PWR0115" H 8500 4850 50  0001 C CNN
+F 1 "+5V" H 8515 5173 50  0000 C CNN
+F 2 "" H 8500 5000 50  0001 C CNN
+F 3 "" H 8500 5000 50  0001 C CNN
+	1    8500 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R20
 U 1 1 60455275
 P 8700 5450
-F 0 "R20" V 8493 5450 50  0000 C CNN
-F 1 "91kOhms" V 8584 5450 50  0000 C CNN
+F 0 "R20" V 8700 5450 50  0000 C CNN
+F 1 "91kOhms" V 8800 5450 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8630 5450 50  0001 C CNN
 F 3 "~" H 8700 5450 50  0001 C CNN
 	1    8700 5450
@@ -443,7 +417,7 @@ $EndComp
 Wire Wire Line
 	8550 5450 8500 5450
 Wire Wire Line
-	8500 5450 8500 5150
+	8500 5450 8500 5100
 Wire Wire Line
 	10000 5450 9850 5450
 Wire Wire Line
@@ -507,16 +481,16 @@ $EndComp
 $Comp
 L Device:R R11
 U 1 1 60485C9E
-P 4150 2850
-F 0 "R11" V 3943 2850 50  0000 C CNN
-F 1 "22kOhms" V 4034 2850 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4080 2850 50  0001 C CNN
-F 3 "~" H 4150 2850 50  0001 C CNN
-	1    4150 2850
+P 4300 2850
+F 0 "R11" V 4093 2850 50  0000 C CNN
+F 1 "22kOhms" V 4184 2850 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4230 2850 50  0001 C CNN
+F 3 "~" H 4300 2850 50  0001 C CNN
+	1    4300 2850
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4000 2850 3950 2850
+	4150 2850 3950 2850
 Wire Wire Line
 	3950 2850 3950 2550
 $Comp
@@ -531,13 +505,11 @@ F 3 "~" H 4400 3850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4300 2850 4700 2850
+	4450 2850 4700 2850
 Wire Wire Line
 	4700 3850 4550 3850
 Wire Wire Line
 	4250 3850 3950 3850
-Wire Wire Line
-	3950 3850 3950 3050
 Connection ~ 3950 2850
 $Comp
 L power:+5V #PWR?
@@ -555,16 +527,16 @@ $EndComp
 $Comp
 L Device:R R17
 U 1 1 60489958
-P 6800 2850
-F 0 "R17" V 6593 2850 50  0000 C CNN
-F 1 "47kOhms" V 6684 2850 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6730 2850 50  0001 C CNN
-F 3 "~" H 6800 2850 50  0001 C CNN
-	1    6800 2850
+P 7000 2850
+F 0 "R17" V 6793 2850 50  0000 C CNN
+F 1 "47kOhms" V 6884 2850 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6930 2850 50  0001 C CNN
+F 3 "~" H 7000 2850 50  0001 C CNN
+	1    7000 2850
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6650 2850 6600 2850
+	6850 2850 6600 2850
 Wire Wire Line
 	6600 2850 6600 2550
 $Comp
@@ -579,13 +551,11 @@ F 3 "~" H 6900 3850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6950 2850 7450 2850
+	7150 2850 7450 2850
 Wire Wire Line
 	7450 3850 7050 3850
 Wire Wire Line
 	6750 3850 6600 3850
-Wire Wire Line
-	6600 3850 6600 3050
 Connection ~ 6600 2850
 $Comp
 L power:+5V #PWR?
@@ -632,8 +602,6 @@ Wire Wire Line
 	9650 3800 9300 3800
 Wire Wire Line
 	9000 3800 8850 3800
-Wire Wire Line
-	8850 3800 8850 3000
 Connection ~ 8850 2800
 Text GLabel 5500 7050 2    50   Input ~ 0
 BTN_GRP_1
@@ -646,22 +614,22 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR?
 U 1 1 604BFD4B
-P 1350 6650
+P 1350 6550
 AR Path="/604BFD4B" Ref="#PWR?"  Part="1" 
 AR Path="/602DBA9D/604BFD4B" Ref="#PWR0120"  Part="1" 
-F 0 "#PWR0120" H 1350 6500 50  0001 C CNN
-F 1 "+5V" H 1365 6823 50  0000 C CNN
-F 2 "" H 1350 6650 50  0001 C CNN
-F 3 "" H 1350 6650 50  0001 C CNN
-	1    1350 6650
+F 0 "#PWR0120" H 1350 6400 50  0001 C CNN
+F 1 "+5V" H 1365 6723 50  0000 C CNN
+F 2 "" H 1350 6550 50  0001 C CNN
+F 3 "" H 1350 6550 50  0001 C CNN
+	1    1350 6550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R9
 U 1 1 604BFD51
 P 1550 6950
-F 0 "R9" V 1343 6950 50  0000 C CNN
-F 1 "120kOhms" V 1434 6950 50  0000 C CNN
+F 0 "R9" V 1550 6950 50  0000 C CNN
+F 1 "120kOhms" V 1650 6950 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1480 6950 50  0001 C CNN
 F 3 "~" H 1550 6950 50  0001 C CNN
 	1    1550 6950
@@ -670,26 +638,26 @@ $EndComp
 Wire Wire Line
 	1400 6950 1350 6950
 Wire Wire Line
-	1350 6950 1350 6650
+	1350 6950 1350 6600
 $Comp
 L power:+5V #PWR?
 U 1 1 604D2FCC
-P 4050 6750
+P 4050 6600
 AR Path="/604D2FCC" Ref="#PWR?"  Part="1" 
 AR Path="/602DBA9D/604D2FCC" Ref="#PWR0121"  Part="1" 
-F 0 "#PWR0121" H 4050 6600 50  0001 C CNN
-F 1 "+5V" H 4065 6923 50  0000 C CNN
-F 2 "" H 4050 6750 50  0001 C CNN
-F 3 "" H 4050 6750 50  0001 C CNN
-	1    4050 6750
+F 0 "#PWR0121" H 4050 6450 50  0001 C CNN
+F 1 "+5V" H 4065 6773 50  0000 C CNN
+F 2 "" H 4050 6600 50  0001 C CNN
+F 3 "" H 4050 6600 50  0001 C CNN
+	1    4050 6600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R14
 U 1 1 604D2FD2
 P 4250 7050
-F 0 "R14" V 4043 7050 50  0000 C CNN
-F 1 "150kOhms" V 4134 7050 50  0000 C CNN
+F 0 "R14" V 4250 7050 50  0000 C CNN
+F 1 "150kOhms" V 4350 7050 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4180 7050 50  0001 C CNN
 F 3 "~" H 4250 7050 50  0001 C CNN
 	1    4250 7050
@@ -698,7 +666,7 @@ $EndComp
 Wire Wire Line
 	4100 7050 4050 7050
 Wire Wire Line
-	4050 7050 4050 6750
+	4050 7050 4050 6700
 Wire Wire Line
 	4650 7050 4400 7050
 Wire Wire Line
@@ -780,90 +748,54 @@ Text GLabel 9550 3100 0    50   Input ~ 0
 ROT_VS_A
 Text GLabel 9550 3300 0    50   Input ~ 0
 ROT_VS_B
-Text GLabel 6900 5100 0    50   Input ~ 0
+Text GLabel 6900 5000 0    50   Input ~ 0
 Dr3SegC
-Text GLabel 9050 5100 0    50   Input ~ 0
+Text GLabel 9050 5000 0    50   Input ~ 0
 Dr3SegD
-Text GLabel 1900 6600 0    50   Input ~ 0
+Text GLabel 1900 6500 0    50   Input ~ 0
 Dr3SegE
-Text GLabel 4550 6700 0    50   Input ~ 0
+Text GLabel 4550 6600 0    50   Input ~ 0
 Dr3SegF
-Text GLabel 2750 5100 2    50   Input ~ 0
+Text GLabel 2750 5000 2    50   Input ~ 0
 Dr3Dig2
-Text GLabel 5400 5100 2    50   Input ~ 0
+Text GLabel 5400 5000 2    50   Input ~ 0
 Dr3Dig2
-Text GLabel 7850 5100 2    50   Input ~ 0
+Text GLabel 7850 5000 2    50   Input ~ 0
 Dr3Dig2
-Text GLabel 10000 5100 2    50   Input ~ 0
+Text GLabel 10000 5000 2    50   Input ~ 0
 Dr3Dig2
-Text GLabel 5500 6700 2    50   Input ~ 0
+Text GLabel 5500 6600 2    50   Input ~ 0
 Dr3Dig2
-Text GLabel 2850 6600 2    50   Input ~ 0
+Text GLabel 2850 6500 2    50   Input ~ 0
 Dr3Dig2
-Text GLabel 4450 5100 0    50   Input ~ 0
+Text GLabel 4450 5000 0    50   Input ~ 0
 Dr3SegB
-Text GLabel 1800 5100 0    50   Input ~ 0
+Text GLabel 1800 5000 0    50   Input ~ 0
 Dr3SegA
 Wire Wire Line
-	1800 5100 1900 5100
+	1800 5000 1900 5000
 Wire Wire Line
-	1900 5100 1900 5000
-Connection ~ 1900 5100
+	2600 5000 2750 5000
 Wire Wire Line
-	2600 5000 2600 5100
+	4450 5000 4550 5000
 Wire Wire Line
-	2600 5100 2750 5100
-Connection ~ 2600 5100
+	5400 5000 5250 5000
 Wire Wire Line
-	4450 5100 4550 5100
+	6900 5000 7000 5000
 Wire Wire Line
-	4550 5000 4550 5100
-Connection ~ 4550 5100
+	7700 5000 7850 5000
 Wire Wire Line
-	5250 5000 5250 5100
+	9050 5000 9150 5000
 Wire Wire Line
-	5400 5100 5250 5100
-Connection ~ 5250 5100
+	9850 5000 10000 5000
 Wire Wire Line
-	6900 5100 7000 5100
+	5500 6600 5350 6600
 Wire Wire Line
-	7000 5100 7000 5000
-Connection ~ 7000 5100
+	4550 6600 4650 6600
 Wire Wire Line
-	7700 5000 7700 5100
+	1900 6500 2000 6500
 Wire Wire Line
-	7700 5100 7850 5100
-Connection ~ 7700 5100
-Wire Wire Line
-	9050 5100 9150 5100
-Wire Wire Line
-	9150 5100 9150 5000
-Connection ~ 9150 5100
-Wire Wire Line
-	9850 5000 9850 5100
-Wire Wire Line
-	9850 5100 10000 5100
-Connection ~ 9850 5100
-Wire Wire Line
-	5500 6700 5350 6700
-Wire Wire Line
-	5350 6700 5350 6600
-Connection ~ 5350 6700
-Wire Wire Line
-	4550 6700 4650 6700
-Wire Wire Line
-	4650 6700 4650 6600
-Connection ~ 4650 6700
-Wire Wire Line
-	1900 6600 2000 6600
-Wire Wire Line
-	2000 6600 2000 6500
-Connection ~ 2000 6600
-Wire Wire Line
-	2700 6500 2700 6600
-Wire Wire Line
-	2700 6600 2850 6600
-Connection ~ 2700 6600
+	2700 6500 2850 6500
 Text GLabel 2100 3350 0    50   Input ~ 0
 ROT_SPEED_B
 Text GLabel 2100 3150 0    50   Input ~ 0
@@ -885,8 +817,6 @@ Wire Wire Line
 	2750 3850 2600 3850
 Text GLabel 2750 3850 2    50   Input ~ 0
 BTN_GRP_2
-Wire Wire Line
-	1500 3850 1500 3050
 Wire Wire Line
 	1750 3850 1500 3850
 Wire Wire Line
@@ -914,36 +844,246 @@ F 3 "~" H 2400 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L home-cockpit-symbols:Rotary_Encoder_VccGnd ROT_SPEED1
+L Device:Rotary_Encoder ROT_SPEED1
 U 1 1 6035B4C2
-P 2400 3200
-F 0 "ROT_SPEED1" H 2630 3246 50  0000 L CNN
-F 1 "Rotary_Encoder" H 2630 3155 50  0000 L CNN
-F 2 "home-cockpit-footprints:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical_RotaryEncoder" H 2250 3360 50  0001 C CNN
-F 3 "~" H 2400 3460 50  0001 C CNN
-	1    2400 3200
+P 2400 3250
+F 0 "ROT_SPEED1" H 2630 3296 50  0000 L CNN
+F 1 "Rotary_Encoder" H 2630 3205 50  0000 L CNN
+F 2 "home-cockpit-footprints:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical_RotaryEncoder" H 2250 3410 50  0001 C CNN
+F 3 "~" H 2400 3510 50  0001 C CNN
+	1    2400 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 3050 2100 3050
-Connection ~ 1500 3050
-Wire Wire Line
-	1500 3050 1500 2850
-Wire Wire Line
-	9550 3000 8850 3000
-Connection ~ 8850 3000
-Wire Wire Line
-	8850 3000 8850 2800
-Wire Wire Line
-	7350 3050 6600 3050
-Connection ~ 6600 3050
-Wire Wire Line
-	6600 3050 6600 2850
-Wire Wire Line
-	4600 3050 3950 3050
-Connection ~ 3950 3050
-Wire Wire Line
-	3950 3050 3950 2850
-Wire Wire Line
 	7350 3250 7050 3250
+$Comp
+L power:GND #PWR?
+U 1 1 6038864B
+P 2750 5100
+AR Path="/6038864B" Ref="#PWR?"  Part="1" 
+AR Path="/602DBA9D/6038864B" Ref="#PWR01"  Part="1" 
+F 0 "#PWR01" H 2750 4850 50  0001 C CNN
+F 1 "GND" H 2755 4927 50  0000 C CNN
+F 2 "" H 2750 5100 50  0001 C CNN
+F 3 "" H 2750 5100 50  0001 C CNN
+	1    2750 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 5100 2750 5100
+$Comp
+L power:GND #PWR?
+U 1 1 603A95C3
+P 5400 5100
+AR Path="/603A95C3" Ref="#PWR?"  Part="1" 
+AR Path="/602DBA9D/603A95C3" Ref="#PWR03"  Part="1" 
+F 0 "#PWR03" H 5400 4850 50  0001 C CNN
+F 1 "GND" H 5405 4927 50  0000 C CNN
+F 2 "" H 5400 5100 50  0001 C CNN
+F 3 "" H 5400 5100 50  0001 C CNN
+	1    5400 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 5100 5250 5100
+$Comp
+L power:GND #PWR?
+U 1 1 603C7FDA
+P 7850 5100
+AR Path="/603C7FDA" Ref="#PWR?"  Part="1" 
+AR Path="/602DBA9D/603C7FDA" Ref="#PWR05"  Part="1" 
+F 0 "#PWR05" H 7850 4850 50  0001 C CNN
+F 1 "GND" H 7855 4927 50  0000 C CNN
+F 2 "" H 7850 5100 50  0001 C CNN
+F 3 "" H 7850 5100 50  0001 C CNN
+	1    7850 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 5100 7700 5100
+Wire Wire Line
+	6400 5050 6400 5100
+Wire Wire Line
+	3950 5050 3950 5100
+$Comp
+L power:GND #PWR?
+U 1 1 603DE8D8
+P 10000 5100
+AR Path="/603DE8D8" Ref="#PWR?"  Part="1" 
+AR Path="/602DBA9D/603DE8D8" Ref="#PWR06"  Part="1" 
+F 0 "#PWR06" H 10000 4850 50  0001 C CNN
+F 1 "GND" H 10005 4927 50  0000 C CNN
+F 2 "" H 10000 5100 50  0001 C CNN
+F 3 "" H 10000 5100 50  0001 C CNN
+	1    10000 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 5100 9850 5100
+$Comp
+L Device:R R23
+U 1 1 603ECB58
+P 1600 5100
+F 0 "R23" V 1600 5100 50  0000 C CNN
+F 1 "100Ohms" V 1700 5100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1530 5100 50  0001 C CNN
+F 3 "~" H 1600 5100 50  0001 C CNN
+	1    1600 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1750 5100 1900 5100
+Wire Wire Line
+	1450 5100 1150 5100
+Connection ~ 1150 5100
+$Comp
+L Device:R R25
+U 1 1 603F657E
+P 4250 5100
+F 0 "R25" V 4250 5100 50  0000 C CNN
+F 1 "100Ohms" V 4350 5100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4180 5100 50  0001 C CNN
+F 3 "~" H 4250 5100 50  0001 C CNN
+	1    4250 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4400 5100 4550 5100
+Wire Wire Line
+	4100 5100 3950 5100
+Connection ~ 3950 5100
+Wire Wire Line
+	3950 5100 3950 5450
+$Comp
+L Device:R R27
+U 1 1 604018C7
+P 6700 5100
+F 0 "R27" V 6700 5100 50  0000 C CNN
+F 1 "100Ohms" V 6800 5100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6630 5100 50  0001 C CNN
+F 3 "~" H 6700 5100 50  0001 C CNN
+	1    6700 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6850 5100 7000 5100
+Wire Wire Line
+	6550 5100 6400 5100
+Connection ~ 6400 5100
+Wire Wire Line
+	6400 5100 6400 5450
+$Comp
+L Device:R R28
+U 1 1 6040AEE7
+P 8850 5100
+F 0 "R28" V 8850 5100 50  0000 C CNN
+F 1 "100Ohms" V 8950 5100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8780 5100 50  0001 C CNN
+F 3 "~" H 8850 5100 50  0001 C CNN
+	1    8850 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9000 5100 9150 5100
+Wire Wire Line
+	8700 5100 8500 5100
+Connection ~ 8500 5100
+Wire Wire Line
+	8500 5100 8500 5000
+$Comp
+L Device:R R24
+U 1 1 604331A3
+P 1700 6600
+F 0 "R24" V 1700 6600 50  0000 C CNN
+F 1 "100Ohms" V 1800 6600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1630 6600 50  0001 C CNN
+F 3 "~" H 1700 6600 50  0001 C CNN
+	1    1700 6600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 6600 2000 6600
+Wire Wire Line
+	1550 6600 1350 6600
+Connection ~ 1350 6600
+Wire Wire Line
+	1350 6600 1350 6550
+$Comp
+L Device:R R26
+U 1 1 604473FA
+P 4350 6700
+F 0 "R26" V 4350 6700 50  0000 C CNN
+F 1 "100Ohms" V 4450 6700 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4280 6700 50  0001 C CNN
+F 3 "~" H 4350 6700 50  0001 C CNN
+	1    4350 6700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4500 6700 4650 6700
+Wire Wire Line
+	4200 6700 4050 6700
+Connection ~ 4050 6700
+Wire Wire Line
+	4050 6700 4050 6600
+$Comp
+L power:GND #PWR?
+U 1 1 60450F25
+P 2850 6600
+AR Path="/60450F25" Ref="#PWR?"  Part="1" 
+AR Path="/602DBA9D/60450F25" Ref="#PWR02"  Part="1" 
+F 0 "#PWR02" H 2850 6350 50  0001 C CNN
+F 1 "GND" H 2855 6427 50  0000 C CNN
+F 2 "" H 2850 6600 50  0001 C CNN
+F 3 "" H 2850 6600 50  0001 C CNN
+	1    2850 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 604513B2
+P 5500 6700
+AR Path="/604513B2" Ref="#PWR?"  Part="1" 
+AR Path="/602DBA9D/604513B2" Ref="#PWR04"  Part="1" 
+F 0 "#PWR04" H 5500 6450 50  0001 C CNN
+F 1 "GND" H 5505 6527 50  0000 C CNN
+F 2 "" H 5500 6700 50  0001 C CNN
+F 3 "" H 5500 6700 50  0001 C CNN
+	1    5500 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 6700 5350 6700
+Wire Wire Line
+	2850 6600 2700 6600
+Wire Wire Line
+	1500 2850 1500 3850
+Wire Wire Line
+	3950 2850 3950 3850
+Wire Wire Line
+	6600 2850 6600 3850
+Wire Wire Line
+	8850 2800 8850 3800
+$Comp
+L Device:Rotary_Encoder ROT_ALT1
+U 1 1 6036FA53
+P 7650 3250
+F 0 "ROT_ALT1" H 7880 3296 50  0000 L CNN
+F 1 "Rotary_Encoder" H 7880 3205 50  0000 L CNN
+F 2 "home-cockpit-footprints:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical_RotaryEncoder" H 7500 3410 50  0001 C CNN
+F 3 "~" H 7650 3510 50  0001 C CNN
+	1    7650 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L home-cockpit-symbols:Korry KORRY_AP2
+U 1 1 60362782
+P 5000 6700
+F 0 "KORRY_AP2" H 5000 7065 50  0000 C CNN
+F 1 "Korry" H 5000 6974 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical" H 5100 6900 50  0001 C CNN
+F 3 "" H 5100 6900 50  0001 C CNN
+	1    5000 6700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
