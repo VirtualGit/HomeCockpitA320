@@ -179,6 +179,15 @@ class LedControl {
         void setDigit(int addr, int digit, byte value, boolean dp);
 
         /* 
+         * Send the digits of the given display. Since one digit change 
+         * on a common-anode display need to send all digits, this is
+         * factorised in this function.
+         * Params:
+         * addr	address of the display
+         */
+        void sendDigits(int addr);
+
+        /* 
          * Display a character on a 7-Segment display.
          * There are only a few characters that make sense here :
          *	'0','1','2','3','4','5','6','7','8','9','0',

@@ -177,15 +177,23 @@ void LedControl::setDigit(int addr, int digit, byte value, boolean dp) {
     if(dp)
         v|=B10000000;
     status[offset+digit]=v;
+}
+
+void LedControl::sendDigits(int addr)
+{
+    if(addr<0 || addr>=maxDevices)
+        return;
+    int offset=addr*8;
+    
     if (anodeMode) {
         //transpose the digit matrix
         transposeData(addr);
-        //send the entire set of digits
-        for(int i=0;i<8;i++) {
-            spiTransfer(addr, i+1, statusTransposed[offset+i]);
-        }
-    } else {
-        spiTransfer(addr, digit+1, v);
+    }
+
+    byte* data = anodeMode ? statusTransposed : status;
+
+    for(int digit=0;digit<8;digit++) {
+        spiTransfer(addr, digit+1, data[offset+digit]);
     }
 }
 
@@ -207,18 +215,6 @@ void LedControl::setChar(int addr, int digit, char value, boolean dp) {
     if(dp)
         v|=B10000000;
     status[offset+digit]=v;
-    
-    if (anodeMode) {
-        //transpose the digit matrix
-        transposeData(addr);
-        //send the entire set of digits
-        for(int i=0;i<8;i++) {
-            spiTransfer(addr, i+1, statusTransposed[offset+i]);
-        }
-    } else {
-        spiTransfer(addr, digit+1, v);
-    }
-
 }
 
 void LedControl::spiTransfer(int addr, volatile byte opcode, volatile byte data) {
