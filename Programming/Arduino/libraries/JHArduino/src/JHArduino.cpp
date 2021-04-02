@@ -107,7 +107,7 @@ size_t JHArduino::readLine(char *intoBuffer, size_t size)
 }
 
 
-void JHArduino::sendValue(JHVariable variable, int value)
+void JHArduino::sendValue(JHVariable variable, long value)
 {
     _stream.print(variable);
     _stream.print("=");
@@ -131,9 +131,9 @@ void JHArduino::readValue(const char* idVar, const char* value)
 {
     for(Variable& var : _variables)
     {
-        if( var.idVar() == atoi(idVar) )
+        if( var.idVar() == atol(idVar) )
         {
-            var.newValueReceived(atoi(value));
+            var.newValueReceived(atol(value));
         }
     }
 }

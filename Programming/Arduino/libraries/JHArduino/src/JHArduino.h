@@ -48,7 +48,7 @@ class JHArduino {
 
         void update();
 
-        void sendValue(JHVariable variable, int value);
+        void sendValue(JHVariable variable, long value);
 
     private:
 

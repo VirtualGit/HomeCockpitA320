@@ -42,11 +42,11 @@ class Variable {
         Variable();
         Variable(JHArduino* jharduino, JHVariable variable, T_UPDATE_EVENT callback);
 
-        void newValueReceived(int value);
-        void setValue(int value);
+        void newValueReceived(long value);
+        void setValue(long value);
 
         JHVariable idVar() const { return _idVariable; }
-        int value();
+        long value();
         bool hasChanged() const { return _changed; }
 
     private:
@@ -54,7 +54,7 @@ class Variable {
         JHArduino* _jharduino;
 
         JHVariable _idVariable;
-        int _value;
+        long _value;
         bool _changed;
         T_UPDATE_EVENT _callback;
 

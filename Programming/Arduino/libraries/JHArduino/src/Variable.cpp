@@ -49,9 +49,9 @@ Variable::Variable(JHArduino* jharduino, JHVariable variable, T_UPDATE_EVENT cal
 
 
 
-void Variable::newValueReceived(int value)
+void Variable::newValueReceived(long value)
 {
-    int oldValue = _value;
+    long oldValue = _value;
     _value = value;
     _changed = true;
 
@@ -61,7 +61,7 @@ void Variable::newValueReceived(int value)
     }
 }
 
-void Variable::setValue(int value)
+void Variable::setValue(long value)
 {
     _value = value;
     if( _jharduino != nullptr )
@@ -70,7 +70,7 @@ void Variable::setValue(int value)
     }
 }
 
-int Variable::value()
+long Variable::value()
 {
     _changed = false;
     return _value;
