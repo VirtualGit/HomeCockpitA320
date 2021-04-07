@@ -21,7 +21,7 @@ public:
     Variable(QString name, int id, EVariableType type);
 
     void setSize(int size);
-    int size() const { return _size; }
+    size_t size() const { return _size; }
 
     const QString& name() const { return _name; }
     int id() const { return _id; }
