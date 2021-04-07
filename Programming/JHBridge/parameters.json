@@ -3,4828 +3,5116 @@
     "parameters": [
         {
             "description": "",
-            "equipement": "",
-            "name": "USBKeys",
-            "type": ""
-        },
-        {
-            "description": "",
-            "equipement": "",
-            "name": "USBKeysfo",
-            "type": ""
-        },
-        {
-            "description": "",
-            "equipement": "",
+            "equipement": "SWTCHG-RUDTRIM",
             "name": "RUDTRIMrst",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "SWTCHG-RUDTRIM",
             "name": "RUDTRIMdec",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "SWTCHG-RUDTRIM",
             "name": "RUDTRIMdisp",
             "type": "DISP_NUMBER"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "SWTCHG-RUDTRIM",
             "name": "ATT3pos",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "SWTCHG-RUDTRIM",
             "name": "AIR3pos",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "SWTCHG-RUDTRIM",
             "name": "DMC3pos",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "SWTCHG-RUDTRIM",
             "name": "ECAM3pos",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "SWTCHG-RUDTRIM",
             "name": "RUD3pos",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "XPDR-WXR",
             "name": "XPDR0_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "XPDR-WXR",
             "name": "XPDR1_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "XPDR-WXR",
             "name": "XPDR2_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "XPDR-WXR",
             "name": "XPDR3_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "XPDR-WXR",
             "name": "XPDR4_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "XPDR-WXR",
             "name": "XPDR5_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "XPDR-WXR",
             "name": "XPDR6_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "XPDR-WXR",
             "name": "XPDR7_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "XPDR-WXR",
             "name": "XPDRCLR_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "XPDR-WXR",
             "name": "XPDRIDENT_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "XPDR-WXR",
             "name": "XPDRmodeC_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "XPDR-WXR",
             "name": "WXRPWS_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "XPDR-WXR",
             "name": "MULTISCAN_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "XPDR-WXR",
             "name": "ATC3pos",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "XPDR-WXR",
             "name": "TCAS3pos",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "XPDR-WXR",
             "name": "TCAS4pos",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "XPDR-WXR",
             "name": "XPDRdisp",
             "type": "DISP_NUMBER"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "XPDR-WXR",
             "name": "WXRsys",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "XPDR-WXR",
             "name": "WXRmode",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "XPDR-WXR",
             "name": "WXRgain",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "XPDR-WXR",
             "name": "WXRTilt",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1VHF1SWsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1VHF1SWdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1VHF1SWuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1VHF2SWsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1VHF2SWdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1VHF2SWuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1VHF3SWsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1VHF3SWdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1VHF3SWuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1HF1SWsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1HF1SWdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1HF1SWuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1HF2SWsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1HF2SWdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1HF2SWuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1INTSWsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1INTSWdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1INTSWuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1CABSWsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1CABSWdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1CABSWuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1VOICEsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1VOICEdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1VOICEuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "Misc_ACP1RESETsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "Misc_ACP1RESETled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "Misc_ACP1PASWsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "Misc_ACP1PASWled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1VHF1a",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1VHF1asw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1VHF1aled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1VHF2a",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1VHF2asw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1VHF2aled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1VHF3a",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1VHF3asw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1VHF3aled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1HF1a",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1HF1asw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1HF1aled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1HF2a",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1HF2asw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1HF2aled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1CABa",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1CABasw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1CABaled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1INTa",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1INTasw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1INTaled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1PAa",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1PAasw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1PAaled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1VOR1a",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1VOR1asw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1VOR1aled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1VOR2a",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1VOR2asw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1VOR2aled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1ILSa",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1ILSasw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1ILSaled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1MLSa",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1MLSasw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1MLSaled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1MKRa",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1MKRasw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1MKRaled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1ADF1a",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1ADF1asw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1ADF1aled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1ADF2a",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1ADF2asw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1ADF2aled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP1INTRAD",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2VHF1SWsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2VHF1SWdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2VHF1SWuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2VHF2SWsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2VHF2SWdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2VHF2SWuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2VHF3SWsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2VHF3SWdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2VHF3SWuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2HF1SWsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2HF1SWdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2HF1SWuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2HF2SWsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2HF2SWdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2HF2SWuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2INTSWsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2INTSWdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2INTSWuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2CABSWsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2CABSWdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2CABSWuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2VOICEsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2VOICEdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2VOICEuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "Misc_ACP2RESETsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "Misc_ACP2RESETled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "Misc_ACP2PASWsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "Misc_ACP2PASWled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2VHF1",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2VHF1sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2VHF1led",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2VHF2",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2VHF2sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2VHF2led",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2VHF3",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2VHF3sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2VHF3led",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2HF1",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2HF1sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2HF1led",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2HF2",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2HF2sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2HF2led",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2CAB",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2CABsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2CABled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2INT",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2INTsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2INTled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2PA",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2PAsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2PAled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2VOR1",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2VOR1sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2VOR1led",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2VOR2",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2VOR2sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2VOR2led",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2ILS",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2ILSsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2ILSled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2MLS",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2MLSsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2MLSled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2MKR",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2MKRsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2MKRled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2ADF1",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2ADF1sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2ADF1led",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2ADF2",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2ADF2sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2ADF2led",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP2INTRAD",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3VHF1SWsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3VHF1SWdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3VHF1SWuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3VHF2SWsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3VHF2SWdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3VHF2SWuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3VHF3SWsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3VHF3SWdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3VHF3SWuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3HF1SWsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3HF1SWdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3HF1SWuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3HF2SWsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3HF2SWdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3HF2SWuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3INTSWsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3INTSWdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3INTSWuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3CABSWsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3CABSWdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3CABSWuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3VOICEsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3VOICEdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3VOICEuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "Misc_ACP3RESETsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "Misc_ACP3RESETled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "Misc_ACP3PASWsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "Misc_ACP3PASWled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3VHF1",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3VHF1sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3VHF1led",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3VHF2",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3VHF2sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3VHF2led",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3VHF3",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3VHF3sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3VHF3led",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3HF1",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3HF1sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3HF1led",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3HF2",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3HF2sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3HF2led",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3CAB",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3CABsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3CABled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3INT",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3INTsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3INTled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3PA",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3PAsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3PAled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3VOR1",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3VOR1sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3VOR1led",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3VOR2",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3VOR2sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3VOR2led",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3ILS",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3ILSsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3ILSled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3MLS",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3MLSsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3MLSled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3MKR",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3MKRsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3MKRled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3ADF1",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3ADF1sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3ADF1led",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3ADF2",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3ADF2sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3ADF2led",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "ACP",
             "name": "misc_ACP3INTRAD",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1Act_dec",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1Act2_dec",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1Act3_dec",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1Stby_dec",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1Stby2_dec",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1Stby3_dec",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2Act_dec",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2Act2_dec",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2Act3_dec",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2Stby_dec",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2Stby2_dec",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2Stby3_dec",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP3Act_dec",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP3Stby_dec",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1MHzVar",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1kHzVar",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2MHzVar",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2kHzVar",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP3MHzVar",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP3kHzVar",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1Act_disp",
             "type": "DISP_NUMBER"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1stby_disp",
             "type": "DISP_NUMBER"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2Act_disp",
             "type": "DISP_NUMBER"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2stby_disp",
             "type": "DISP_NUMBER"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP3Act_disp",
             "type": "DISP_NUMBER"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP3stby_disp",
             "type": "DISP_NUMBER"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1SWAP_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2SWAP_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP3SWAP_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1ON_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2ON_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP3ON_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1VHF1_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1VHF1_LED",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1VHF2_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1VHF2_LED",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1VHF3_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1VHF3_LED",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1HF1_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1HF1_LED",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1HF2_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1HF2_LED",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1NAV_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1NAV_LED",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1VOR_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1VOR_LED",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1ILS_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1ILS_LED",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1ADF_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1ADF_LED",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1BFO_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1BFO_LED",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2VHF1_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2VHF1_LED",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2VHF2_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2VHF2_LED",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2VHF3_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2VHF3_LED",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2HF1_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2HF1_LED",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2HF2_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2HF2_LED",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2NAV_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2NAV_LED",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2VOR_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2VOR_LED",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2ILS_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2ILS_LED",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2ADF_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2ADF_LED",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2BFO_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2BFO_LED",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP3VHF1_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP3VHF1_LED",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP3VHF2_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP3VHF2_LED",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP3VHF3_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP3VHF3_LED",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP3HF1_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP3HF1_LED",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP3HF2_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP3HF2_LED",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP1SEL",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP2SEL",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "RPM",
             "name": "RMP3SEL",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "SPDdisp",
             "type": "DISP_NUMBER"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "HDGdisp",
             "type": "DISP_NUMBER"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "ALTdisp",
             "type": "DISP_NUMBER"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "VSdisp",
-            "size": "5",
+            "size": 5,
             "type": "DISP_NUMBER"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "AP1sw",
             "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "AP1led",
             "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "AP2sw",
             "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "AP2led",
             "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "ATHRsw",
             "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "ATHRled",
             "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "LOCsw",
             "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "LOCled",
             "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "EXPEDsw",
             "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "EXPEDled",
             "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "APPRsw",
             "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "APPRled",
             "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "SPDMACHsw",
             "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "HDGTKsw",
             "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "METRIC",
             "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "SPDencoderVar",
+            "type": "ACT_ENCODER"
+        },
+        {
+            "description": "",
+            "equipement": "FCU",
+            "name": "SPDencoderPush",
             "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
-            "name": "SPDencoderPush",
-            "type": ""
-        },
-        {
-            "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "SPDencoderPull",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "HDGencoderVar",
-            "type": ""
+            "type": "ACT_ENCODER"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "HDGencoderPush",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "HDGencoderPull",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "ALTencoderVar",
-            "type": ""
+            "type": "ACT_ENCODER"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "ALTencoderPush",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "ALTencoderPull",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "VSencoderVar",
-            "type": ""
+            "type": "ACT_ENCODER"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "VSencoderPush",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "VSencoderPull",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "LVLCHled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "HDGled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "TKled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "LATman_led",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "SPDled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "MACHled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "MACHdecled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "FPAdecled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "SPDmanled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "HDGVSled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "TKFPAled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "ALTmanagedled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "VSled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "FPAled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "FCU",
             "name": "ALT1000",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_BAT1sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_BAT1dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_BAT1uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_BAT2sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_BAT2dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_BAT2uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_GEN1sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_GEN1dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_GEN1uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_GEN2sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_GEN2dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_GEN2uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_galleysw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_galleydled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_galleyuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_APUgensw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_APUgendled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_APUgenuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_EXTPWRsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_EXTPWRdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_EXTPWRuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_ACESSsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_ACESSdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_ACESSuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_GPWSsyssw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_GPWSsysdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_GPWSsysuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_GPWStersw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_GPWSterdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_GPWSteruled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_PACK1sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_PACK1dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_PACK1uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_PACK2sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_PACK2dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_PACK2uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_ENG1bleedsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_ENG1bleeddled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_ENG1bleeduled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_ENG2bleedsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_ENG2bleeddled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_ENG2bleeduled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_APUbleedsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_APUbleeddled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_APUbleeduled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_HOTAIRsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_HOTAIRdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_HOTAIRuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_WINGAIsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_WINGAIdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_WINGAIuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_ENG1AIsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_ENG1AIdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_ENG1AIuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_ENG2AIsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_ENG2AIdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_ENG2AIuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_CAFTisolsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_CAFTisoldled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_CAFTisoluled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_CFWDisolsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_CFWDisoldled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_CFWDisoluled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_CHOTAIRsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_CHOTAIRdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_CHOTAIRuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_APUmastersw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
-            "name": "ovhd_APUmasterLatch",
-            "type": ""
-        },
-        {
-            "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_APUmasterdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_APUmasteruled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_APUstartsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
-            "name": "ovhd_APUstartLatch",
-            "type": ""
-        },
-        {
-            "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_APUstartdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_APUstartuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_ELAC2sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_ELAC2dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_ELAC2uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_SEC2sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_SEC2dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_SEC2uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_SEC3sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_SEC3dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_SEC3uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_FAC2sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_FAC2dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_FAC2uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_GPWSgssw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_GPWSgsLed",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_GPWSflapsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_GPWSflapLed",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_GPWSLDGflapsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_GPWSLDGflapLed",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_PROBEHEATsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_PROBEHEATLed",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_BUSTIEsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_BUSTIELed",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_DITCHINGsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_DITCHINGLed",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_ENG1MANsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_ENG1MANLed",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_ENG2MANsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_ENG2MANLed",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_ENG1N1sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_ENG1N1Led",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_ENG2N1sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_ENG2N1Led",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_ElecMANONsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_ElecMANONLed",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_IDG1sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_IDG1Led",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_IDG2sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_IDG2Led",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_CREWSUPPLYsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_CREWSUPPLYLed",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_GEN1linesw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_GEN1linedled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_GEN1lineuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_EXTRACTsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_EXTRACTdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_EXTRACTuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_BLOWERsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_BLOWERdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_BLOWERuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_CABFANSsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_CABFANSLed",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_GNDCTLsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_GNDCTLLed",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_EMERCALLsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_EMERCALLLed",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_FWDSMOKE1sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_FWDSMOKE1dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_FWDSMOKE1uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_AFTSMOKE1sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_AFTSMOKE1dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_AFTSMOKE1uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_EVACsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_EVACdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_EVACuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_PAXSYSONled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_EMERSGNOFled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_HORNSTFsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_CVRTESTsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_MASKMANONsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_FWDSQUIB1sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_AFTSQUIB1sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_SMOKETEST1sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "EMEREXITUP",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "EMEREXITDN",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "EMEREXIT2POS",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_RAMairsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_RAMairdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_RAMairuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_CABPRESSmodeSelsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_CABPRESSmodeSeldled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_CABPRESSmodeSeluled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_EMERGEN",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_BAT1dec",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_BAT2dec",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "BeaconLT",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "WingLT",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "NavLT",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "RWYturnoffLT",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ANNtest",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "StrobesUP",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "StrobesDN",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "Strobes2POS",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "LandLTLUP",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "LandLTLDN",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "LandLTL2POS",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "LandLTRUP",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "LandLTRDN",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "LandLTR2POS",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "NoseLTUP",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "NoseLTDN",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "NoseLT2POS",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "SeatBeltUP",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "SeatBeltDN",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "SeatBelt2POS",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "NoSmokingUP",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "NoSmokingDN",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "NoSmoking2POS",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "CabPressToggle",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "PackFlow",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "Xbleed",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "BAT1disp",
             "type": "DISP_NUMBER"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "BAT2disp",
             "type": "DISP_NUMBER"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_CockpitTemp",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_FwdTemp",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_AftTemp",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_CargoAftTemp",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_LOW",
             "name": "ovhd_CargoFwdTemp",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_ADR1sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_ADR1dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_ADR1uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_ADR2sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_ADR2dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_ADR2uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_ADR3sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_ADR3dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_ADR3uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_ENG1Pumpsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_ENG1Pumpdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_ENG1Pumpuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_ENG2Pumpsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_ENG2Pumpdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_ENG2Pumpuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_BluePumpsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_BluePumpdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_BluePumpuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_YellowPumpsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_YellowPumpdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_YellowPumpuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_PTUsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_PTUdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_PTUuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_RTK1sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_RTK1dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_RTK1uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_RTK2sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_RTK2dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_RTK2uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_LTK1sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_LTK1dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_LTK1uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_LTK2sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_LTK2dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_LTK2uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_CTRTK1sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_CTRTK1dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_CTRTK1uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_CTRTK2sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_CTRTK2dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_CTRTK2uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_FuelXfeedsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_FuelXfeeddled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_FuelXfeeduled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_FUELmodesw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_FUELmodedled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_FUELmodeuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_AUTOBRKlosw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_AUTOBRKlodled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_AUTOBRKlouled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_AUTOBRKmedsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_AUTOBRKmeddled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_AUTOBRKmeduled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_AUTOBRKmaxsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_AUTOBRKmaxdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_AUTOBRKmaxuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_ELAC1sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_ELAC1dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_ELAC1uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_SEC1sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_SEC1dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_SEC1uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_FAC1sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_FAC1dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_FAC1uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_Eng1Agent1sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_Eng1Agent1dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_Eng1Agent1uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_Eng1Agent2sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_Eng1Agent2dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_Eng1Agent2uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_Eng2Agent1sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_Eng2Agent1dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_Eng2Agent1uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_Eng2Agent2sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_Eng2Agent2dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_Eng2Agent2uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_APUAgentsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_APUAgentdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_APUAgentuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_HYDMANONsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_HYDMANONLed",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_ONBATled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_IR1sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_IR1dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_IR1uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_IR2sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_IR2dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_IR2uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_IR3sw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_IR3dled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_IR3uled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_NSW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_ENG1Master",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_ENG2Master",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_ENGstart",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_IR1SEL",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_IR2SEL",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_IR3SEL",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_ADIRS_DATA",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_ADIRS_sys",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_Eng1FireTest",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_Eng2FireTest",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_APUFireTest",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_Eng1FireHandle",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_Eng1FireHandleLed",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_Eng2FireHandle",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_Eng2FireHandleLed",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_APUFireHandle",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "OVERHEAD_UP",
             "name": "ovhd_APUFireHandleLed",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "AAxis1",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "AAxis2",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "AAxis3",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "AAxis4",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "AAxis5",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "AAxis6",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "AAxis7",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "AAxis8",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "AAxis9",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "AAxis10",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "AAxis11",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "AAxis12",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "AAxis13",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "AAxis14",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "AAxis15",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "AAxis16",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "MWcptsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "MWcptled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "MCcptsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "MCcptled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "MWfosw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "MWfoled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "MCfosw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "MCfoled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Capt_Chrono",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "FO_Chrono",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "CPT_APTO",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "FO_APTO",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "ATHRTO",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "CPT_PriorUP",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "CPT_PriorLO",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "FO_PriorUP",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "FO_PriorLO",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "BRKFAN_UP",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "BRKFAN_LO",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "BRKFAN_SW",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_ECAMengsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_ECAMengled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_ECAMbleedsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_ECAMbleedled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_ECAMpresssw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_ECAMpressled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_ECAMelecsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_ECAMelecled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_ECAMhydsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_ECAMhydled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_ECAMfuelsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_ECAMfuelled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_ECAMapusw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_ECAMapuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_ECAMcondsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_ECAMcondled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_ECAMdoorsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_ECAMdoorled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_ECAMwheelsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_ECAMwheelled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_ECAMfctlsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_ECAMfctlled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_ECAMclrsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_ECAMclrled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_ECAMstssw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_ECAMstsled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "misc_CPT_TERRsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "misc_CPT_TERRdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "misc_CPT_TERRuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "misc_FO_TERRsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "misc_FO_TERRdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "misc_FO_TERRuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "ASKID",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "LDGGEAR",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "PRKBRK",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "SPLRsARM",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "ECAM_TO_CONFIG",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "ECAM_EMER_CANC",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "ECAM_ALL",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "ECAM_RCL",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "CPT_PFDNDXFR",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "FO_PFDNDXFR",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "FLAPS0",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "FLAPS1",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "FLAPS2",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "FLAPS3",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "FLAPSFULL",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "L_LDG_UP",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "L_LDG_LO",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "N_LDG_UP",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "N_LDG_LO",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "R_LDG_UP",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "R_LDG_LO",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "misc_CPT_GPWSsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "misc_CPT_GPWSdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "misc_CPT_GPWSuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "misc_FO_GPWSsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "misc_FO_GPWSdled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "misc_FO_GPWSuled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_CPT_ALANDsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_CPT_ALANDled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_FO_ALANDsw",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "Misc_FO_ALANDled",
-            "type": ""
+            "type": "DISP_BOOLEAN"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "STBYCHR_SS",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "STBYCHR_Rst",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "STBYET_Start",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "STBYET_Stop",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "STBYET_Rst",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "STBYUTC",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "ISIS_LS",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "ISIS_bug",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "ISIS_m",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "ISIS_p",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "DDRMIV1",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "DDRMIA1",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "DDRMIV2",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "DDRMIA2",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "PEDDISC",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "ISISencVar",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "ISISencPush",
-            "type": ""
+            "type": "ACT_SWITCH"
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "STBYALT_ENC",
             "type": ""
         },
         {
             "description": "",
-            "equipement": "",
+            "equipement": "MISCELLANEOUS",
             "name": "LDGredARR",
             "type": ""
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "CPT_QNHdisp",
+            "type": "DISP_NUMBER"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "FO_QNHdisp",
+            "type": "DISP_NUMBER"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "CPT_QNH_enc",
+            "type": ""
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "CPT_encoderPush",
+            "type": "ACT_SWITCH"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "CPT_encoderPull",
+            "type": "ACT_SWITCH"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "FO_QNH_enc",
+            "type": ""
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "FO_encoderPush",
+            "type": "ACT_SWITCH"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "FO_encoderPull",
+            "type": "ACT_SWITCH"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "CPT_CSTRsw",
+            "type": "ACT_SWITCH"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "CPT_CSTRled",
+            "type": "DISP_BOOLEAN"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "CPT_WPTsw",
+            "type": "ACT_SWITCH"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "CPT_WPTled",
+            "type": "DISP_BOOLEAN"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "CPT_VORsw",
+            "type": "ACT_SWITCH"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "CPT_VORled",
+            "type": "DISP_BOOLEAN"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "CPT_NDBsw",
+            "type": "ACT_SWITCH"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "CPT_NDBled",
+            "type": "DISP_BOOLEAN"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "CPT_ARPTsw",
+            "type": "ACT_SWITCH"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "CPT_ARPTled",
+            "type": "DISP_BOOLEAN"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "CPT_FDsw",
+            "type": "ACT_SWITCH"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "CPT_FDled",
+            "type": "DISP_BOOLEAN"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "CPT_ILSsw",
+            "type": "ACT_SWITCH"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "CPT_ILSled",
+            "type": "DISP_BOOLEAN"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "FO_CSTRsw",
+            "type": "ACT_SWITCH"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "FO_CSTRled",
+            "type": "DISP_BOOLEAN"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "FO_WPTsw",
+            "type": "ACT_SWITCH"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "FO_WPTled",
+            "type": "DISP_BOOLEAN"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "FO_VORsw",
+            "type": "ACT_SWITCH"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "FO_VORled",
+            "type": "DISP_BOOLEAN"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "FO_NDBsw",
+            "type": "ACT_SWITCH"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "FO_NDBled",
+            "type": "DISP_BOOLEAN"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "FO_ARPTsw",
+            "type": "ACT_SWITCH"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "FO_ARPTled",
+            "type": "DISP_BOOLEAN"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "FO_FDsw",
+            "type": "ACT_SWITCH"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "FO_FDled",
+            "type": "DISP_BOOLEAN"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "FO_ILSsw",
+            "type": "ACT_SWITCH"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "FO_ILSled",
+            "type": "DISP_BOOLEAN"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "CPT_mb",
+            "type": ""
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "FO_mb",
+            "type": ""
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "CPT_V1",
+            "type": ""
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "CPT_V2",
+            "type": ""
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "FO_V1",
+            "type": ""
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "FO_V2",
+            "type": ""
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "CPT_mode",
+            "type": ""
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "FO_mode",
+            "type": ""
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "CPT_range",
+            "type": ""
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "FO_range",
+            "type": ""
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "CPT_QNH_dec_led",
+            "type": "DISP_BOOLEAN"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "FO_QNH_dec_led",
+            "type": "DISP_BOOLEAN"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "CPT_QNH_LED",
+            "type": "DISP_BOOLEAN"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "CPT_QFE_LED",
+            "type": "DISP_BOOLEAN"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "FO_QNH_LED",
+            "type": "DISP_BOOLEAN"
+        },
+        {
+            "description": "",
+            "equipement": "EFIS",
+            "name": "FO_QFE_LED",
+            "type": "DISP_BOOLEAN"
         }
     ]
 }
