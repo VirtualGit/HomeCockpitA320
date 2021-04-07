@@ -106,7 +106,7 @@ void SerialPort::readyRead()
         int pos = pattern.indexIn(line);
         if (pos > -1) {
 
-            emit log(this, Log(_info.portName(), "Identification received"));
+            emit log(this, Log(_info.portName(), "Identification received : "+line));
             qDebug()<<"Init recu de serial : "<<line;
             QStringList idsStr = pattern.cap(1).split(":");
             QList<QString>::const_iterator it = idsStr.begin();
