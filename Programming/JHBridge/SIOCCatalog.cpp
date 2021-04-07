@@ -41,17 +41,21 @@ SIOCCatalog::SIOCCatalog( QString filePath )
 
         QString name = parameter["name"].toString();
         QString typeStr = parameter["type"].toString();
+        size_t size = parameter["size"].toInt();
         EVariableType type = typeStringToEnum(typeStr);
         if( type == EVariableType::UNKNOWN )
         {
             continue;
         }
+        if( size == 0 )
+        {
+            size = 1;
+        }
 
         Variable var = Variable( name, id, type );
-        var.setSize(parameter.toInt(1));
+        var.setSize(size);
         _variables[id] = var;
-
-        id += var.size();
+        id += size;
     }
 
 }
@@ -80,7 +84,19 @@ void SIOCCatalog::exportJHArduinoHeader( QString filePath )
     for( int id : _variables.keys() )
     {
         const Variable& variable = _variables[id];
-        stream << "   " << variable.name() << " = " << variable.id() << "," << Qt::endl;
+
+        if( variable.size() > 1 && variable.type() == EVariableType::DISP_NUMBER )
+        {
+            for( size_t i = 1 ; i <= variable.size() ; i++ )
+            {
+                stream << "   " << variable.name() << "_" << i << " = " << (variable.id() + i - 1) << "," << Qt::endl;
+            }
+        }
+        else
+        {
+            stream << "   " << variable.name() << " = " << variable.id() << "," << Qt::endl;
+        }
+
     }
     stream << "};" << Qt::endl;
     stream << Qt::endl;
