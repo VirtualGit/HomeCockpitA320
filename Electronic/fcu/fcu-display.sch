@@ -14,226 +14,259 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 4050 1050 1150 250 
+S 3350 1650 1150 250 
 U 604C18F9
 F0 "fcu-display-driver1" 50
 F1 "fcu-display-driver1.sch" 50
 $EndSheet
 $Sheet
-S 4050 1600 1150 250 
+S 3350 2200 1150 250 
 U 60579BC5
 F0 "fcu-display-driver2" 50
 F1 "fcu-display-driver2.sch" 50
 $EndSheet
 $Sheet
-S 4050 2150 1150 250 
+S 3350 2750 1150 250 
 U 606C8F36
 F0 "fcu-display-driver3" 50
 F1 "fcu-display-driver3.sch" 50
 $EndSheet
 $Comp
-L home-cockpit-symbols:Connector-FPC-50pins U101
-U 1 1 605E3D2A
-P 1150 3500
-F 0 "U101" H 1100 6300 50  0000 L CNN
-F 1 "Connector-FPC-50pins" H 700 6150 50  0000 L CNN
-F 2 "home-cockpit-footprints:Connector-FPC-50pins-0.5mm" H 1150 3500 50  0001 C CNN
-F 3 "" H 1150 3500 50  0001 C CNN
-	1    1150 3500
+L home-cockpit-symbols:Connector-FPC-50pins DisplayConnector1
+U 1 1 606FAF5D
+P 1300 3450
+F 0 "DisplayConnector1" H 950 6050 50  0000 L CNN
+F 1 "Connector-FPC-50pins" H 850 5950 50  0000 L CNN
+F 2 "home-cockpit-footprints:Connector-FPC-50pins-0.5mm" H 1300 3450 50  0001 C CNN
+F 3 "" H 1300 3450 50  0001 C CNN
+	1    1300 3450
 	1    0    0    -1  
 $EndComp
-Text GLabel 1950 3400 2    50   Input ~ 0
+Wire Wire Line
+	1550 3850 1800 3850
+Wire Wire Line
+	1800 3950 1550 3950
+Wire Wire Line
+	1550 4050 1800 4050
+Wire Wire Line
+	1800 1450 1550 1450
+Wire Wire Line
+	1550 3350 1800 3350
+Wire Wire Line
+	1800 2350 1550 2350
+Wire Wire Line
+	1550 1650 1800 1650
+Wire Wire Line
+	1800 1150 1550 1150
+Wire Wire Line
+	1550 1850 1800 1850
+Wire Wire Line
+	1800 5650 1550 5650
+Wire Wire Line
+	1550 5750 1800 5750
+Wire Wire Line
+	1800 5850 1550 5850
+Wire Wire Line
+	1550 1550 1800 1550
+Wire Wire Line
+	1550 2450 1800 2450
+Wire Wire Line
+	1800 2550 1550 2550
+Wire Wire Line
+	1550 5150 1800 5150
+Wire Wire Line
+	1800 1750 1550 1750
+Wire Wire Line
+	1550 5550 1800 5550
+Wire Wire Line
+	1800 2650 1550 2650
+Wire Wire Line
+	1550 2750 1800 2750
+Wire Wire Line
+	1800 2850 1550 2850
+Wire Wire Line
+	1550 4550 1800 4550
+Wire Wire Line
+	1800 2950 1550 2950
+Wire Wire Line
+	1800 5050 1550 5050
+Wire Wire Line
+	1550 4950 1800 4950
+Wire Wire Line
+	1800 4850 1550 4850
+Wire Wire Line
+	1550 4750 1800 4750
+Wire Wire Line
+	1800 3550 1550 3550
+Wire Wire Line
+	1550 5450 1800 5450
+Wire Wire Line
+	1800 5350 1550 5350
+Wire Wire Line
+	1550 5250 1800 5250
+Wire Wire Line
+	1800 4650 1550 4650
+Wire Wire Line
+	1550 4450 1800 4450
+Wire Wire Line
+	1800 4350 1550 4350
+Wire Wire Line
+	1550 4250 1800 4250
+Wire Wire Line
+	1800 3750 1550 3750
+Wire Wire Line
+	1550 3650 1800 3650
+Wire Wire Line
+	1800 3450 1550 3450
+Wire Wire Line
+	1550 1350 1800 1350
+Wire Wire Line
+	1800 3250 1550 3250
+Wire Wire Line
+	1550 3150 1800 3150
+Wire Wire Line
+	1550 4150 1800 4150
+Wire Wire Line
+	1550 3050 1800 3050
+Wire Wire Line
+	1800 1250 1550 1250
+Wire Wire Line
+	1550 1950 1800 1950
+Wire Wire Line
+	1800 2050 1550 2050
+Wire Wire Line
+	1550 2150 1800 2150
+Wire Wire Line
+	1800 6050 1650 6050
+Text GLabel 1800 3850 2    50   Input ~ 0
 speedAltA
-Text GLabel 1950 3300 2    50   Input ~ 0
+Text GLabel 1800 3950 2    50   Input ~ 0
 speedAltB
-Text GLabel 1950 3200 2    50   Input ~ 0
+Text GLabel 1800 4050 2    50   Input ~ 0
 speedAltC
-Text GLabel 1950 3100 2    50   Input ~ 0
+Text GLabel 1800 4150 2    50   Input ~ 0
 speedAltD
-Text GLabel 1950 3000 2    50   Input ~ 0
+Text GLabel 1800 4250 2    50   Input ~ 0
 speedAltE
-Text GLabel 1950 5500 2    50   Input ~ 0
+Text GLabel 1800 4350 2    50   Input ~ 0
 speedAltF
-Text GLabel 1950 5400 2    50   Input ~ 0
+Text GLabel 1800 4450 2    50   Input ~ 0
 speedAltG
-Text GLabel 2050 1600 2    50   Input ~ 0
+Text GLabel 1800 2950 2    50   Input ~ 0
 speedAltDig0
-Text GLabel 2050 1500 2    50   Input ~ 0
+Text GLabel 1800 3050 2    50   Input ~ 0
 speedAltDig1
-Text GLabel 2050 1400 2    50   Input ~ 0
+Text GLabel 1800 3150 2    50   Input ~ 0
 speedAltDig2
-Text GLabel 2050 4900 2    50   Input ~ 0
+Text GLabel 1800 3250 2    50   Input ~ 0
 speedAltDig3
-Text GLabel 2050 4800 2    50   Input ~ 0
+Text GLabel 1800 1350 2    50   Input ~ 0
 speedAltDig4
-Text GLabel 2050 4700 2    50   Input ~ 0
+Text GLabel 1800 3450 2    50   Input ~ 0
 speedAltDig5
-Text GLabel 2050 4600 2    50   Input ~ 0
+Text GLabel 1800 3650 2    50   Input ~ 0
 speedAltDig6
-Text GLabel 2050 4500 2    50   Input ~ 0
+Text GLabel 1800 3750 2    50   Input ~ 0
 speedAltDig7
-Text GLabel 1950 5300 2    50   Input ~ 0
+Text GLabel 1800 4650 2    50   Input ~ 0
 speedAltDP
-Text GLabel 1950 5600 2    50   Input ~ 0
+Text GLabel 1800 2150 2    50   Input ~ 0
 hdgVsA
-Text GLabel 1950 4400 2    50   Input ~ 0
+Text GLabel 1800 4750 2    50   Input ~ 0
 hdgVsB
-Text GLabel 1950 4300 2    50   Input ~ 0
+Text GLabel 1800 2450 2    50   Input ~ 0
 hdgVsC
-Text GLabel 1950 4200 2    50   Input ~ 0
+Text GLabel 1800 2550 2    50   Input ~ 0
 hdgVsD
-Text GLabel 1950 4100 2    50   Input ~ 0
+Text GLabel 1800 2650 2    50   Input ~ 0
 hdgVsE
-Text GLabel 1950 4000 2    50   Input ~ 0
+Text GLabel 1800 2750 2    50   Input ~ 0
 hdgVsF
-Text GLabel 1950 3900 2    50   Input ~ 0
+Text GLabel 1800 2850 2    50   Input ~ 0
 hdgVsG
-Text GLabel 2050 3700 2    50   Input ~ 0
+Text GLabel 1800 1450 2    50   Input ~ 0
 hdgVsDig0
-Text GLabel 2050 3600 2    50   Input ~ 0
+Text GLabel 1800 3350 2    50   Input ~ 0
 hdgVsDig1
-Text GLabel 2050 3500 2    50   Input ~ 0
+Text GLabel 1800 2350 2    50   Input ~ 0
 hdgVsDig2
-Text GLabel 2050 6100 2    50   Input ~ 0
+Text GLabel 1800 1650 2    50   Input ~ 0
 hdgVsDig3
-Text GLabel 2050 6000 2    50   Input ~ 0
+Text GLabel 1800 1150 2    50   Input ~ 0
 hdgVsDig4
-Text GLabel 2050 5900 2    50   Input ~ 0
+Text GLabel 1800 1250 2    50   Input ~ 0
 hdgVsDig5
-Text GLabel 2050 5800 2    50   Input ~ 0
+Text GLabel 1800 1950 2    50   Input ~ 0
 hdgVsDig6
-Text GLabel 2050 5700 2    50   Input ~ 0
+Text GLabel 1800 2050 2    50   Input ~ 0
 hdgVsDig7
-Text GLabel 1950 3800 2    50   Input ~ 0
+Text GLabel 1800 4550 2    50   Input ~ 0
 hdgVsDP
-Text GLabel 1950 2900 2    50   Input ~ 0
-Dr3SegA
-Text GLabel 1950 2800 2    50   Input ~ 0
-Dr3SegB
-Text GLabel 1950 2700 2    50   Input ~ 0
-Dr3SegC
-Text GLabel 1950 2600 2    50   Input ~ 0
-Dr3SegD
-Text GLabel 1950 2500 2    50   Input ~ 0
-Dr3SegE
-Text GLabel 1950 2300 2    50   Input ~ 0
-Dr3SegG
-Text GLabel 2050 2100 2    50   Input ~ 0
-Dr3Dig0
-Text GLabel 2050 2000 2    50   Input ~ 0
-Dr3Dig1
-Text GLabel 2050 1900 2    50   Input ~ 0
-Dr3Dig2
-Text GLabel 2050 1800 2    50   Input ~ 0
-Dr3Dig3
-Text GLabel 2050 1700 2    50   Input ~ 0
-Dr3Dig4
-Text GLabel 2050 5200 2    50   Input ~ 0
-Dr3Dig5
-Text GLabel 2050 5100 2    50   Input ~ 0
-Dr3Dig6
-Text GLabel 2050 5000 2    50   Input ~ 0
-Dr3Dig7
-Text GLabel 1950 2200 2    50   Input ~ 0
-Dr3SegDP
+Text GLabel 1800 5250 2    50   Input ~ 0
+LedPadSPD
+Text GLabel 1800 5350 2    50   Input ~ 0
+LedPadMACH
+Text GLabel 1800 5450 2    50   Input ~ 0
+LedPadHDG
+Text GLabel 1800 3550 2    50   Input ~ 0
+LedPadTRK
+Text GLabel 1800 4850 2    50   Input ~ 0
+LedPadLAT
+Text GLabel 1800 5050 2    50   Input ~ 0
+LedPadVS
+Text GLabel 1800 5650 2    50   Input ~ 0
+LedPadFPA
+Text GLabel 1800 5850 2    50   Input ~ 0
+LedPadStaticALT
+Text GLabel 1800 6050 2    50   Input ~ 0
+Vcc12V
+Text GLabel 1800 5150 2    50   Input ~ 0
+LedManagedSpeed
+Text GLabel 1800 2250 2    50   Input ~ 0
+LedManagedHDG
+Text GLabel 1800 5550 2    50   Input ~ 0
+LedManagedALT
+NoConn ~ 1800 1550
+NoConn ~ 1800 1850
+NoConn ~ 1800 4950
+$Comp
+L power:+12V #PWR0101
+U 1 1 6079500E
+P 1950 6200
+F 0 "#PWR0101" H 1950 6050 50  0001 C CNN
+F 1 "+12V" H 1965 6373 50  0000 C CNN
+F 2 "" H 1950 6200 50  0001 C CNN
+F 3 "" H 1950 6200 50  0001 C CNN
+	1    1950 6200
+	1    0    0    1   
+$EndComp
 Wire Wire Line
-	1400 3700 2050 3700
+	1950 6200 1650 6200
 Wire Wire Line
-	2050 3600 1400 3600
+	1650 6200 1650 6050
+Connection ~ 1650 6050
 Wire Wire Line
-	1400 3500 2050 3500
+	1650 6050 1550 6050
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 6070C95E
+P 2350 6200
+F 0 "#FLG0101" H 2350 6275 50  0001 C CNN
+F 1 "PWR_FLAG" H 2350 6373 50  0000 C CNN
+F 2 "" H 2350 6200 50  0001 C CNN
+F 3 "~" H 2350 6200 50  0001 C CNN
+	1    2350 6200
+	1    0    0    1   
+$EndComp
 Wire Wire Line
-	2050 6100 1400 6100
+	2350 6200 1950 6200
+Connection ~ 1950 6200
+Text GLabel 1800 5750 2    50   Input ~ 0
+LedPadStaticLines
+NoConn ~ 1800 5950
 Wire Wire Line
-	1400 6000 2050 6000
+	1800 5950 1550 5950
 Wire Wire Line
-	2050 5900 1400 5900
-Wire Wire Line
-	1400 5800 2050 5800
-Wire Wire Line
-	2050 5700 1400 5700
-Wire Wire Line
-	1400 2100 2050 2100
-Wire Wire Line
-	2050 2000 1400 2000
-Wire Wire Line
-	1400 1900 2050 1900
-Wire Wire Line
-	2050 1800 1400 1800
-Wire Wire Line
-	1400 1700 2050 1700
-Wire Wire Line
-	2050 5200 1400 5200
-Wire Wire Line
-	1400 5100 2050 5100
-Wire Wire Line
-	2050 5000 1400 5000
-Wire Wire Line
-	1400 1600 2050 1600
-Wire Wire Line
-	2050 1500 1400 1500
-Wire Wire Line
-	1400 1400 2050 1400
-Wire Wire Line
-	2050 4900 1400 4900
-Wire Wire Line
-	1400 4800 2050 4800
-Wire Wire Line
-	2050 4700 1400 4700
-Wire Wire Line
-	1400 4600 2050 4600
-Wire Wire Line
-	2050 4500 1400 4500
-Text GLabel 1950 2400 2    50   Input ~ 0
-Dr3SegF
-Wire Wire Line
-	1950 2200 1400 2200
-Wire Wire Line
-	1400 2300 1950 2300
-Wire Wire Line
-	1950 2400 1400 2400
-Wire Wire Line
-	1400 2500 1950 2500
-Wire Wire Line
-	1950 2600 1400 2600
-Wire Wire Line
-	1400 2700 1950 2700
-Wire Wire Line
-	1950 2800 1400 2800
-Wire Wire Line
-	1400 2900 1950 2900
-Wire Wire Line
-	1950 3000 1400 3000
-Wire Wire Line
-	1400 3100 1950 3100
-Wire Wire Line
-	1950 3200 1400 3200
-Wire Wire Line
-	1400 3300 1950 3300
-Wire Wire Line
-	1950 3800 1400 3800
-Wire Wire Line
-	1400 3900 1950 3900
-Wire Wire Line
-	1950 4000 1400 4000
-Wire Wire Line
-	1400 4100 1950 4100
-Wire Wire Line
-	1950 4200 1400 4200
-Wire Wire Line
-	1400 4300 1950 4300
-Wire Wire Line
-	1400 3400 1950 3400
-Wire Wire Line
-	1400 4400 1950 4400
-Wire Wire Line
-	1950 5600 1400 5600
-Wire Wire Line
-	1400 5500 1950 5500
-Wire Wire Line
-	1950 5400 1400 5400
-Wire Wire Line
-	1400 5300 1950 5300
-NoConn ~ 1400 1200
-NoConn ~ 1400 1300
+	1800 2250 1550 2250
+NoConn ~ 1800 1750
 $EndSCHEMATC

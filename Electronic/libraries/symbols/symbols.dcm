@@ -6,4 +6,9 @@ K rotary switch encoder
 F ~
 $ENDCMP
 #
+$CMP TLC5917IN
+D TLC5917IN
+F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=TLC5917&fileType=pdf
+$ENDCMP
+#
 #End Doc Library
