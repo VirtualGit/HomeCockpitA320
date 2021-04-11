@@ -48,7 +48,7 @@ F 26 "yes" H 7500 4625 50  0001 L CNN "imported"
 	1    0    0    -1  
 $EndComp
 Text Notes 9050 1400 0    50   ~ 0
-DriverLed1 :\nLed PAD
+DriverLed1 :\nLed PAD (20mA)
 Text Notes 3800 5250 0    50   ~ 0
 DriverSegment2 :\nHDG digits\nVS digits
 Text Notes 1550 5250 0    50   ~ 0
@@ -302,7 +302,7 @@ P 7500 2400
 AR Path="/6072A07A" Ref="R?"  Part="1" 
 AR Path="/602DB478/6072A07A" Ref="R3"  Part="1" 
 F 0 "R3" V 7400 2400 50  0000 C CNN
-F 1 "9,53kohms" V 7600 2600 50  0000 R CNN
+F 1 "1kohms" V 7600 2600 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7430 2400 50  0001 C CNN
 F 3 "~" H 7500 2400 50  0001 C CNN
 	1    7500 2400
@@ -425,7 +425,7 @@ P 7500 4350
 AR Path="/608677D2" Ref="R?"  Part="1" 
 AR Path="/602DB478/608677D2" Ref="R29"  Part="1" 
 F 0 "R29" V 7400 4350 50  0000 C CNN
-F 1 "9,53kohms" V 7600 4550 50  0000 R CNN
+F 1 "1kohms" V 7600 4550 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7430 4350 50  0001 C CNN
 F 3 "~" H 7500 4350 50  0001 C CNN
 	1    7500 4350
@@ -475,7 +475,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 3350 7000 3350
 Text Notes 9050 3350 0    50   ~ 0
-DriverLed2 :\nLed KORRY
+DriverLed2 :\nLed KORRY (20mA)
 Text GLabel 8100 4950 2    50   Input ~ 0
 LedManagedSpeed
 Text GLabel 8100 5050 2    50   Input ~ 0
@@ -529,7 +529,7 @@ P 7500 6350
 AR Path="/60A75A39" Ref="R?"  Part="1" 
 AR Path="/602DB478/60A75A39" Ref="R30"  Part="1" 
 F 0 "R30" V 7400 6350 50  0000 C CNN
-F 1 "9,53kohms" V 7600 6550 50  0000 R CNN
+F 1 "2kohms" V 7600 6550 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7430 6350 50  0001 C CNN
 F 3 "~" H 7500 6350 50  0001 C CNN
 	1    7500 6350
@@ -558,7 +558,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 5350 7000 5350
 Text Notes 9050 5350 0    50   ~ 0
-DriverLed3 :\nLed Managed mode
+DriverLed3 :\nLed Managed mode (10mA)
 Wire Wire Line
 	7000 3450 6050 3450
 Wire Wire Line
